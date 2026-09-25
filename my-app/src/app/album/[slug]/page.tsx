@@ -1,4 +1,5 @@
-import { Track } from "../../../components/track";
+import { Track } from "../../../../components/track";
+import { albums } from "../../albums";
 
 export default function album() {
     return (
@@ -7,12 +8,12 @@ export default function album() {
         <div className="flex flex-row items-center justify-center h-screen gap-10">
           {/* Album cover */}
           <div className="flex flex-col items-center justify-center h-100 w-100 bg-blue-500 text-white">
-              <img src="/images/album.jpg" alt="Album Cover" className="w-full h-full object-cover" />
+              {/* <img src="/images/album.jpg" alt="Album Cover" className="w-full h-full object-cover" /> */}
           </div>
           {/* Album Info */}
           <div className="flex flex-col h-100">
             <div className="flex flex-col justify-center h-15 w-175 bg-blue-500 text-white"> 
-                <h1 className="text-5xl font-bold">Album Title</h1>
+                <h1 className="text-5xl font-bold"></h1>
             </div>
 
             <div className="flex flex-coljustify-center h-10 w-175 bg-blue-500 text-white"> 
