@@ -23,7 +23,7 @@ export const albums: AlbumData[] = [
         subtitle: "Remastered Edition",
         datePublished: "2025",
         description: "Description Placeholder",
-        cover: "cover.jpg",
+        cover: "AllThereEverWas.png",
         tracks: [
             {
                 group: "",
@@ -138,7 +138,7 @@ export const albums: AlbumData[] = [
         subtitle: "10th anniversary ep",
         datePublished: "2026",
         description: "Description Placeholder",
-        cover: "cover.jpg",
+        cover: "10thAnn_logo.png",
         tracks: [
             {
                 group: "",
@@ -155,7 +155,7 @@ export const albums: AlbumData[] = [
         subtitle: "the master collection",
         datePublished: "2025",
         description: "Description Placeholder",
-        cover: "cover.jpg",
+        cover: "quindi_master_collection_cover.png",
         tracks: [
             {
                 group: "Arc 1: 2016",
