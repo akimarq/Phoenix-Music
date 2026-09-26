@@ -24,11 +24,11 @@ export default async function albumPage({
               src={`/${album.cover}`}
               alt={slug}
               fill
-              className="object-cover"
+              className="object-cover rounded-lg"
             />
           </div>
           {/* Album Info */}
-          <div className="flex flex-col h-100">
+          <div className="flex flex-col h-100 bg-black rounded-lg p-10">
             <div className="flex flex-col justify-center h-[30%] w-175  text-white"> 
                 <h1 className="text-6xl">{album.title}</h1>
             </div>
