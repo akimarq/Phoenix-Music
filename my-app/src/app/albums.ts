@@ -18,138 +18,6 @@ export type AlbumData = {
 
 export const albums: AlbumData[] = [
     {
-        slug: "all-there-ever-was",
-        title: "All There Ever Was",
-        subtitle: "Remastered Edition",
-        datePublished: "2025",
-        description: "Description Placeholder",
-        cover: "AllThereEverWas.png",
-        tracks: [
-            {
-                group: "",
-                title: "Overture",
-                year: "2021",
-                description: "There’s not a whole lot to be said about this first track other than that I hope it serves as a nice introduction to the album. Overtures in classical music traditionally served as precursors to larger bodies of work, but increasingly also referred to standalone pieces that could be performed as general introductions to concerts. While Overture in this album is also meant to be a sort of thematic introduction to the album - the second half of this track is thematically the same as the album’s namesake - it is hardly the big introduction that classical or concert overtures tend to be. If anything it’s quite the opposite, but I think for that reason it serves as a fine enough introduction to the rest of this album.",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "Lacrimae",
-                year: "2012",
-                description: "I was and continue to be a bit embarrassed about including this track in this album. Lacrimae was the first work for piano that I ever wrote, and the second piece I ever composed (the first piece was worse but may end up on this site eventually). I wrote Lacrimae when I was 15 (!!) for my high school music class, which is incredibly cringe. \n\nThe word “lacrimae” means “tears” in Latin. I think I named it that because of what I was experiencing at the time - which was a bit of an up-and-down relationship with a lot of things in general. Big news for a 15-year-old, I know. \n\nThe piece heavily draws on Yiruma’s songs because I was big into Yiruma at that age. I’ve presented the original version with some very minor tweaking here, partially as a marker to show how far I’ve come as a writer - or maybe how little progress I’ve made, hahaha.",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "Raining Fury",
-                year: "2016 (original), 2020", 
-                description: "This is a solo piano arrangement of Raining Fury I. This is one of the many iterations and versions of Raining Fury that have existed over the years, but this version remains relatively faithful to the original. Having never been a very accomplished pianist myself, I’m not actually sure how playable this track is - I tried to make it at least appear and sound plausible for human hands, but I can never be fully sure. I don’t expect every work that I make to be translatable to human performers one-to-one, but the point of this album was to write for one instrument…",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "Light from the Sixth Station",
-                year: "2021",
-                description: "The original Light from Shadow was a theme written for solo piano, and drew surprisingly strong emotional reactions from some people when I first shared it around. For that reason alone, I simply couldn’t look past including a version of this theme when putting this collection together. However, as much as I could have included the original as is, at the time I thought that it would be more meaningful to present the piece in a new light by drawing upon one of my biggest inspirations in my early days of music writing - the music of Joe Hisaishi and the Ghibli film soundtracks. Light from Shadows and many of these other current works wouldn’t exist without Joe Hisaishi’s phenomenal work. \n\nThis piece is a combination of Light from Shadow and The Sixth Station from the movie Spirited Away. Spirited Away, as I’ve described elsewhere, is one of my favourite films of all time and The Sixth Station in particular is perhaps my favourite track in the OST. This piece and its name is a combination of this phenomenal piece and Light from Shadow.",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "Under the Same Moon",
-                year: "2018",
-                description: "The name Under the Same Moon gives away a lot of what this piece is about. I have always interpreted this piece and its title as having two layers. The first layer is about a specific kind of loneliness; it is about feeling just a bit too far away from someone, and wanting to be closer to them. I think this is a feeling that many people have experience with, and if not can still instinctively relate to or understand.\n\nThe second layer, though, is (perhaps strangely) about comfort, and where I think this piece truly derives its name from. For me, there’s a small sense of comfort in knowing that even if someone is physically too far away from you, they are still ‘under the same moon’ that you are. In a way, it’s a sign that they’re not too far away. I’ve never been fully sure whether this piece really captures these two layers at the same time, but this piece is an earnest attempt at that all the same.",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "Ghost Heart",
-                year: "2017",
-                description: "If you are reading these notes in linear order, it may be obvious by now that a lot of my non-theme music is personally inspired or driven. Ghost Heart is maybe one of the best examples of this. \n\nI’m at a very different point in my life now than when Ghost Heart was written, so I’m not really afraid to reflect on how this piece came to be. Ghost Heart is fundamentally a piece about heartbreak. It was written after an important friend in Quindi left, and I lost all contact with them. They left nothing behind so I actually lost just about all trace of them too, almost as if they never existed to begin with. It took me a long time - longer than I expected - to process their departure. I can’t really articulate why, and I think it’d be foolish at best for me to try. What I do feel comfortable saying though is that Ghost Heart was a way for me to work through a lot of complex feelings. \n\nI also wrote an orchestral version of Ghost Heart, which is much longer. Perhaps I’ll expand on some of these comments more when I eventually re-share that one.",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "Dreams of the Stars Above",
-                year: "2021",
-                description: "Dreams of the Stars Above is Daisy’s theme, which is also included in The Master Collection. This track is almost a one-for-one replica of the original theme, just arranged for two hands on a single piano. Unlike some of the other arrangements on this album, this theme was already half-piano so it was fairly easy to translate into a solo piano format. The main challenge for this arrangement was trying to capture the interlocking string lines in the first half of the original piece, but I think I kept enough to retain the essence of the original.",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "Arashi",
-                year: "2021",
-                description: "Arashi, which means “storm” in Japanese, is a bit of an outlier on this album. Although there are a number of pieces that are original works not directly written for/about Quindis, most of them are still connected to either Quindi or me in some way. Arashi, however, is truly a standalone piece that has zero connection with either Quindi or me. It was the result of basically experimenting with a specific musical scale and seeing if I could come up with something interesting.\n\nThis piece is sort of a counterpart to another piece I wrote in 2018 called Nagare [Waves], which I also wrote for the hell of it. Both Arashi and Nagare feature Japanese-origin names, but I’m not sure I could really say they were inspired by Japanese music in any way per se. They were just really fun experiments.",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "Rainbow Connection",
-                year: "2021 (original), 2025",
-                description: "I didn’t grow up with The Muppets, so I didn’t discover this song until much later in life. I’m not even sure how I discovered it - I have a feeling I found a cover version first before I even knew it was from The Muppets - but I remember loving the track instantly. I particularly love the line “Who said that every wish / Would be heard and answered / When wished on the morning star? - I just think it’s a pretty beautiful line.\n\nThe original 2021 version of this album had a very different version of this track. I hated what I did with it - it really trudged along in an ugly way and I skipped the entire second verse for some reason, which includes the very lines described above! So when I came around to making the Remastered edition I completely rearranged this piece from scratch. I’m much happier with this version.",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "Komorebi",
-                year: "2018 (original)",
-                description: "Komorebi is Sol’s theme. This version is a fairly faithful arrangement of the original track and unfolds in much the same way. I was a bit surprised at how well it translated to solo piano, especially because the track was originally built using layers and layers of different sounds and instruments. I still really like this theme, though, and always enjoy coming back to it in many forms - there’s not much else I can add here.",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "A Sunset We Shared",
-                year: "2017",
-                description: "In some ways, A Sunset We Shared is a spiritual prequel to Ghost Heart. This is another track where the title is fairly literal. The inspiration for this track was a moment where I was sitting with an old friend (the same one in Ghost Heart) and we just… talked for hours and hours and hours, about anything and everything. We were in slightly different timezones, but we would have started in the evening (i.e. when the sun was setting for them) and finished well into the night.\n\nNow, of course, I look on those memories quite differently. In one sense, the track is literally about just sitting together and sharing a sunset. Above the literal sense, I think the track is about bittersweet reminiscence: reminiscing on things that were, and also things that will never eventuate.",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "Among the Stars",
-                year: "2016 (original) revised 2021", 
-                description: "Although I didn’t originally intend this, I think Among the Stars essentially sits as an epilogue or conclusion to Ghost Heart. Yes, it was another piece that was originally personally motivated, and yes the original was also a product of its time - two overarching concepts that I think pervade half of this album, maybe against my better judgement.\n\nWhat makes this specific track different from some of the others though is the fact that I decided to revise it. This piece has gone by a number of different names since it was originally written in 2016. It’s also undergone a number of revisions and edits as my feelings about this piece (and other things) have changed over time. I didn’t want all of my non-Quindi writing in 2016-2017 to sit in the same emotional black hole that spawned Ghost Heart, and this piece just felt right to revisit. So I deliberately rewrote this piece in 2021 to let it tell a new story from the original, with the most significant edit being the key change near the end of the track (4:00).\n\nThe name Among the Stars is a new name for the piece. As described above, Ghost Heart is about heartbreak. In contrast, Among the Stars is now about letting go; the story in the piece ends in closure, and releasing the heartbreak ‘among the stars’ where it belongs.",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "Palm of a Tiny Hand (Clannad)",
-                year: "2020",
-                description: "I’m not embarrassed to admit that Clannad is one of the only shows that has ever made me cry - and not only did I cry but I bawled. Granted, I watched it while I was in a bit of a touchy state but Clannad humbled me real quick in a way that no show had ever done (and still hasn’t really, with one exception).\n\nThe flagship song and central musical theme of Clannad is Dango Daikazoku. Chiisana Te No Hira (小さなてのひら), which translates to Palm of a Tiny Hand, is a variant on Dango Daikazoku that appears in one specific part of Clannad. I won’t divulge any spoliers from the story - this is one series that you really do have to go into completely blind - but this track appears at such a pivotal moment that it left a really strong impression on me. This piece is an arrangement of that song for solo piano and cello, an instrument that I adore the sound of.",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "Celestial Destiny/Ascension (Genshin)",
-                year: "2021",
-                description: "I have been playing Genshin for 5 years and still play daily. One of the reasons I love this game is the OST, which to me is nothing short of incredible. I am constantly floored by what Hoyo-Mix create and can only dream of writing music as impressive as the Genshin OST. I think the main themes for Natlan, Nod-Krai and Snezhnaya are perfect examples of how magical the Genshin soundtrack is as a whole. Hoyoverse really can be a music company with a game on the side.\n\nCelestial Destiny is a specific arrangement of the Main Theme that plays on the loading screen. It featured once in the music event in Version 1.4, which was shortly after I started playing the game in early 2021. I’m not actually sure what led me to try and merge this track with Ascension, but I remember it being a fun project. Sometimes, these spur-of-the-moment ideas lead me down some delightful pathways.",
-                cover: "cover.jpg",
-            },
-            {
-                group: "",
-                title: "Among the Stars (Expanded)",
-                year: "2025",
-                description: "This version of Among the Stars features a string quartet with the piano. The cello gets special love in this version - I wanted to create a tender duet moment between the cello and the piano in the mid-section when it comes in as a solo.\n\nFor the longest time I didn’t want to listen to the original version of this track (i.e. before it became Among the Stars) because I actually found it kind of unbearable to listen to. It was only really during the making of the original All There Ever Was album back in 2021 that I had the stomach to face this piece again in its entirety. It took a bit of time for me to become comfortable even working with this piece again, so it’s somewhat funny in hindsight that there are now two versions of this song.",
-                cover: "cover.jpg",
-            }
-        ]
-    },
-    {
-        slug: "10th-anniversary",
-        title: "quindecim",
-        subtitle: "10th anniversary ep",
-        datePublished: "2026",
-        description: "Description Placeholder",
-        cover: "10thAnn_logo.png",
-        tracks: [
-            {
-                group: "",
-                title: "Track 1",
-                year: "2025",
-                description: "Description Placeholder",
-                cover: "cover.jpg",
-            }
-        ]
-    },
-    {
         slug: "master-collection",
         title: "quindecim",
         subtitle: "the master collection",
@@ -161,7 +29,9 @@ export const albums: AlbumData[] = [
                 group: "Arc 1: 2016",
                 title: "Quindi Medley I",
                 year: "2016",
-                description: "By the time the idea of doing a medley ever formed, a good portion of the themes listed in this album were already in existence (I'd say about ~2/3). I had been writing these themes for nearly 5 years by this point, and yet I had never really entertained the idea of a medley until the guild's 5th anniversary in 2021. That was my original intended deadline for crafting this medley but I missed it by about 10 months - so I ended up releasing it on New Years Eve, just 2 months shy of the 6th anniversary. (I got really busy in 2021.)\n\nTruthfully, there was no meticulous planning that went into the medley. I had originally intended on trying to link the tracks in the order they were written, but this idea fell apart really quickly. So it was put together by vibes more than anything, really; mostly by grouping tracks with similar vibes together, and trying to link them to each other. The front end was easiest because many of the tracks here were written close to each other, so it was relatively easy to see how they would fit together. More eclectic tracks like Glitch in the Shadow were harder to weave in, but I think the end results still came together in a way that was mostly satisfying. Mostly.",
+                description: `By the time the idea of doing a medley ever formed, a good portion of the themes listed in this album were already in existence (I'd say about ~2/3). I had been writing these themes for nearly 5 years by this point, and yet I had never really entertained the idea of a medley until the guild's 5th anniversary in 2021. That was my original intended deadline for crafting this medley but I missed it by about 10 months - so I ended up releasing it on New Years Eve, just 2 months shy of the 6th anniversary. (I got really busy in 2021.
+                
+                Truthfully, there was no meticulous planning that went into the medley. I had originally intended on trying to link the tracks in the order they were written, but this idea fell apart really quickly. So it was put together by vibes more than anything, really; mostly by grouping tracks with similar vibes together, and trying to link them to each other. The front end was easiest because many of the tracks here were written close to each other, so it was relatively easy to see how they would fit together. More eclectic tracks like Glitch in the Shadow were harder to weave in, but I think the end results still came together in a way that was mostly satisfying. Mostly.`,
                 cover: "cover.jpg"
             },
             {
@@ -450,6 +320,138 @@ export const albums: AlbumData[] = [
                 year: "2025",
                 description: "Writing a second Quindi medley was actually a very spontaneous decision on my part, despite the fairly gargantuan effort that went into writing a medley over 8 minutes long. There was no real reason for it; I really enjoyed writing Medley I, and I just decided that it was time to give a second one a go.\n\nThe first medley was relatively high octane, and perhaps a little rough around the edges. I had/have no problem with that - it was my first foray into writing a medley, and I did it using a format that I could easily work with. That being said, it made sense to me to make some important changes for the second time round. First, the instrumentation was expanded out to include things like strings and brass to create a richer sound. Second, the order of Quindis' themes was changed, and in many instances the sections I used from their themes were changed too. Some of these new snippets also included stylistic changes (e.g. Kai’s After Dark at the very start).",
                 cover: "cover.jpg"
+            }
+        ]
+    },
+    {
+        slug: "10th-anniversary",
+        title: "quindecim",
+        subtitle: "10th anniversary ep",
+        datePublished: "2026",
+        description: "Description Placeholder",
+        cover: "10thAnn_logo.png",
+        tracks: [
+            {
+                group: "",
+                title: "Track 1",
+                year: "2025",
+                description: "Description Placeholder",
+                cover: "cover.jpg",
+            }
+        ]
+    },
+    {
+        slug: "all-there-ever-was",
+        title: "All There Ever Was",
+        subtitle: "Remastered Edition",
+        datePublished: "2025",
+        description: "Description Placeholder",
+        cover: "AllThereEverWas.png",
+        tracks: [
+            {
+                group: "",
+                title: "Overture",
+                year: "2021",
+                description: "There’s not a whole lot to be said about this first track other than that I hope it serves as a nice introduction to the album. Overtures in classical music traditionally served as precursors to larger bodies of work, but increasingly also referred to standalone pieces that could be performed as general introductions to concerts. While Overture in this album is also meant to be a sort of thematic introduction to the album - the second half of this track is thematically the same as the album’s namesake - it is hardly the big introduction that classical or concert overtures tend to be. If anything it’s quite the opposite, but I think for that reason it serves as a fine enough introduction to the rest of this album.",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "Lacrimae",
+                year: "2012",
+                description: "I was and continue to be a bit embarrassed about including this track in this album. Lacrimae was the first work for piano that I ever wrote, and the second piece I ever composed (the first piece was worse but may end up on this site eventually). I wrote Lacrimae when I was 15 (!!) for my high school music class, which is incredibly cringe. \n\nThe word “lacrimae” means “tears” in Latin. I think I named it that because of what I was experiencing at the time - which was a bit of an up-and-down relationship with a lot of things in general. Big news for a 15-year-old, I know. \n\nThe piece heavily draws on Yiruma’s songs because I was big into Yiruma at that age. I’ve presented the original version with some very minor tweaking here, partially as a marker to show how far I’ve come as a writer - or maybe how little progress I’ve made, hahaha.",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "Raining Fury",
+                year: "2016 (original), 2020", 
+                description: "This is a solo piano arrangement of Raining Fury I. This is one of the many iterations and versions of Raining Fury that have existed over the years, but this version remains relatively faithful to the original. Having never been a very accomplished pianist myself, I’m not actually sure how playable this track is - I tried to make it at least appear and sound plausible for human hands, but I can never be fully sure. I don’t expect every work that I make to be translatable to human performers one-to-one, but the point of this album was to write for one instrument…",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "Light from the Sixth Station",
+                year: "2021",
+                description: "The original Light from Shadow was a theme written for solo piano, and drew surprisingly strong emotional reactions from some people when I first shared it around. For that reason alone, I simply couldn’t look past including a version of this theme when putting this collection together. However, as much as I could have included the original as is, at the time I thought that it would be more meaningful to present the piece in a new light by drawing upon one of my biggest inspirations in my early days of music writing - the music of Joe Hisaishi and the Ghibli film soundtracks. Light from Shadows and many of these other current works wouldn’t exist without Joe Hisaishi’s phenomenal work. \n\nThis piece is a combination of Light from Shadow and The Sixth Station from the movie Spirited Away. Spirited Away, as I’ve described elsewhere, is one of my favourite films of all time and The Sixth Station in particular is perhaps my favourite track in the OST. This piece and its name is a combination of this phenomenal piece and Light from Shadow.",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "Under the Same Moon",
+                year: "2018",
+                description: "The name Under the Same Moon gives away a lot of what this piece is about. I have always interpreted this piece and its title as having two layers. The first layer is about a specific kind of loneliness; it is about feeling just a bit too far away from someone, and wanting to be closer to them. I think this is a feeling that many people have experience with, and if not can still instinctively relate to or understand.\n\nThe second layer, though, is (perhaps strangely) about comfort, and where I think this piece truly derives its name from. For me, there’s a small sense of comfort in knowing that even if someone is physically too far away from you, they are still ‘under the same moon’ that you are. In a way, it’s a sign that they’re not too far away. I’ve never been fully sure whether this piece really captures these two layers at the same time, but this piece is an earnest attempt at that all the same.",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "Ghost Heart",
+                year: "2017",
+                description: "If you are reading these notes in linear order, it may be obvious by now that a lot of my non-theme music is personally inspired or driven. Ghost Heart is maybe one of the best examples of this. \n\nI’m at a very different point in my life now than when Ghost Heart was written, so I’m not really afraid to reflect on how this piece came to be. Ghost Heart is fundamentally a piece about heartbreak. It was written after an important friend in Quindi left, and I lost all contact with them. They left nothing behind so I actually lost just about all trace of them too, almost as if they never existed to begin with. It took me a long time - longer than I expected - to process their departure. I can’t really articulate why, and I think it’d be foolish at best for me to try. What I do feel comfortable saying though is that Ghost Heart was a way for me to work through a lot of complex feelings. \n\nI also wrote an orchestral version of Ghost Heart, which is much longer. Perhaps I’ll expand on some of these comments more when I eventually re-share that one.",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "Dreams of the Stars Above",
+                year: "2021",
+                description: "Dreams of the Stars Above is Daisy’s theme, which is also included in The Master Collection. This track is almost a one-for-one replica of the original theme, just arranged for two hands on a single piano. Unlike some of the other arrangements on this album, this theme was already half-piano so it was fairly easy to translate into a solo piano format. The main challenge for this arrangement was trying to capture the interlocking string lines in the first half of the original piece, but I think I kept enough to retain the essence of the original.",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "Arashi",
+                year: "2021",
+                description: "Arashi, which means “storm” in Japanese, is a bit of an outlier on this album. Although there are a number of pieces that are original works not directly written for/about Quindis, most of them are still connected to either Quindi or me in some way. Arashi, however, is truly a standalone piece that has zero connection with either Quindi or me. It was the result of basically experimenting with a specific musical scale and seeing if I could come up with something interesting.\n\nThis piece is sort of a counterpart to another piece I wrote in 2018 called Nagare [Waves], which I also wrote for the hell of it. Both Arashi and Nagare feature Japanese-origin names, but I’m not sure I could really say they were inspired by Japanese music in any way per se. They were just really fun experiments.",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "Rainbow Connection",
+                year: "2021 (original), 2025",
+                description: "I didn’t grow up with The Muppets, so I didn’t discover this song until much later in life. I’m not even sure how I discovered it - I have a feeling I found a cover version first before I even knew it was from The Muppets - but I remember loving the track instantly. I particularly love the line “Who said that every wish / Would be heard and answered / When wished on the morning star? - I just think it’s a pretty beautiful line.\n\nThe original 2021 version of this album had a very different version of this track. I hated what I did with it - it really trudged along in an ugly way and I skipped the entire second verse for some reason, which includes the very lines described above! So when I came around to making the Remastered edition I completely rearranged this piece from scratch. I’m much happier with this version.",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "Komorebi",
+                year: "2018 (original)",
+                description: "Komorebi is Sol’s theme. This version is a fairly faithful arrangement of the original track and unfolds in much the same way. I was a bit surprised at how well it translated to solo piano, especially because the track was originally built using layers and layers of different sounds and instruments. I still really like this theme, though, and always enjoy coming back to it in many forms - there’s not much else I can add here.",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "A Sunset We Shared",
+                year: "2017",
+                description: "In some ways, A Sunset We Shared is a spiritual prequel to Ghost Heart. This is another track where the title is fairly literal. The inspiration for this track was a moment where I was sitting with an old friend (the same one in Ghost Heart) and we just… talked for hours and hours and hours, about anything and everything. We were in slightly different timezones, but we would have started in the evening (i.e. when the sun was setting for them) and finished well into the night.\n\nNow, of course, I look on those memories quite differently. In one sense, the track is literally about just sitting together and sharing a sunset. Above the literal sense, I think the track is about bittersweet reminiscence: reminiscing on things that were, and also things that will never eventuate.",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "Among the Stars",
+                year: "2016 (original) revised 2021", 
+                description: "Although I didn’t originally intend this, I think Among the Stars essentially sits as an epilogue or conclusion to Ghost Heart. Yes, it was another piece that was originally personally motivated, and yes the original was also a product of its time - two overarching concepts that I think pervade half of this album, maybe against my better judgement.\n\nWhat makes this specific track different from some of the others though is the fact that I decided to revise it. This piece has gone by a number of different names since it was originally written in 2016. It’s also undergone a number of revisions and edits as my feelings about this piece (and other things) have changed over time. I didn’t want all of my non-Quindi writing in 2016-2017 to sit in the same emotional black hole that spawned Ghost Heart, and this piece just felt right to revisit. So I deliberately rewrote this piece in 2021 to let it tell a new story from the original, with the most significant edit being the key change near the end of the track (4:00).\n\nThe name Among the Stars is a new name for the piece. As described above, Ghost Heart is about heartbreak. In contrast, Among the Stars is now about letting go; the story in the piece ends in closure, and releasing the heartbreak ‘among the stars’ where it belongs.",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "Palm of a Tiny Hand (Clannad)",
+                year: "2020",
+                description: "I’m not embarrassed to admit that Clannad is one of the only shows that has ever made me cry - and not only did I cry but I bawled. Granted, I watched it while I was in a bit of a touchy state but Clannad humbled me real quick in a way that no show had ever done (and still hasn’t really, with one exception).\n\nThe flagship song and central musical theme of Clannad is Dango Daikazoku. Chiisana Te No Hira (小さなてのひら), which translates to Palm of a Tiny Hand, is a variant on Dango Daikazoku that appears in one specific part of Clannad. I won’t divulge any spoliers from the story - this is one series that you really do have to go into completely blind - but this track appears at such a pivotal moment that it left a really strong impression on me. This piece is an arrangement of that song for solo piano and cello, an instrument that I adore the sound of.",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "Celestial Destiny/Ascension (Genshin)",
+                year: "2021",
+                description: "I have been playing Genshin for 5 years and still play daily. One of the reasons I love this game is the OST, which to me is nothing short of incredible. I am constantly floored by what Hoyo-Mix create and can only dream of writing music as impressive as the Genshin OST. I think the main themes for Natlan, Nod-Krai and Snezhnaya are perfect examples of how magical the Genshin soundtrack is as a whole. Hoyoverse really can be a music company with a game on the side.\n\nCelestial Destiny is a specific arrangement of the Main Theme that plays on the loading screen. It featured once in the music event in Version 1.4, which was shortly after I started playing the game in early 2021. I’m not actually sure what led me to try and merge this track with Ascension, but I remember it being a fun project. Sometimes, these spur-of-the-moment ideas lead me down some delightful pathways.",
+                cover: "cover.jpg",
+            },
+            {
+                group: "",
+                title: "Among the Stars (Expanded)",
+                year: "2025",
+                description: "This version of Among the Stars features a string quartet with the piano. The cello gets special love in this version - I wanted to create a tender duet moment between the cello and the piano in the mid-section when it comes in as a solo.\n\nFor the longest time I didn’t want to listen to the original version of this track (i.e. before it became Among the Stars) because I actually found it kind of unbearable to listen to. It was only really during the making of the original All There Ever Was album back in 2021 that I had the stomach to face this piece again in its entirety. It took a bit of time for me to become comfortable even working with this piece again, so it’s somewhat funny in hindsight that there are now two versions of this song.",
+                cover: "cover.jpg",
             }
         ]
     }

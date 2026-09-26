@@ -48,7 +48,7 @@ export default async function albumPage({
           
         </div>
         {/* Tracklist area */}  
-        <div className="flex flex-col items-center justify-start h-auto gap-10">
+        <div className="grid grid-cols-3 items-center justify-start h-auto gap-10">
           {/* Tracklist Entry*/}
           {album.tracks.map((track) => (
             <Track 
