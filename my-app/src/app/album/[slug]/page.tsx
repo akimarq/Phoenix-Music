@@ -14,6 +14,16 @@ export default async function albumPage({
     notFound();
   }
   
+  const sections: { name: string; tracks: typeof album.tracks }[] = [];
+
+  for (const track of album.tracks) {
+    if (track.group !== "") {
+      sections.push({ name: track.group, tracks: [track] });
+    } else {
+      sections[sections.length - 1]?.tracks.push(track);
+    }
+  }
+  
     return (
       <div className="flex flex-col items-center justify-center h-auto gap-30">
         {/* Album info area */}
@@ -48,18 +58,24 @@ export default async function albumPage({
           
         </div>
         {/* Tracklist area */}  
-        <div className="grid grid-cols-3 items-center justify-start h-auto gap-10">
-          {/* Tracklist Entry*/}
-          {album.tracks.map((track) => (
-            <Track 
-            group={track.group}
-            key={track.title}
-            title={track.title}
-            year={track.year}
-            description={track.description}
-            />
-          ))}
+        {sections.map((section) => (
+        <div key={section.name}>
+          {section.name !== "" && (
+            <h2 className="text-5xl font-bold mb-10">{section.name}</h2>
+          )}
+          <div className="grid grid-cols-3 gap-10">
+            {section.tracks.map((track) => (
+              <Track
+                key={track.title}
+                group=""
+                title={track.title}
+                year={track.year}
+                description={track.description}
+              />
+            ))}
+          </div>
         </div>
+        ))}
       </div>
-    );
-  }
+);
+}
