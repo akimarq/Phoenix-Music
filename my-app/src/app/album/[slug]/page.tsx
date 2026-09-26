@@ -13,13 +13,16 @@ export default async function albumPage({
   if (!album) {
     notFound();
   }
-  
+
   const sections: { name: string; tracks: typeof album.tracks }[] = [];
 
   for (const track of album.tracks) {
     if (track.group !== "") {
       sections.push({ name: track.group, tracks: [track] });
-    } else {
+    }else if (sections.length === 0) {
+      sections.push({ name: "", tracks: [track] });
+    }
+     else {
       sections[sections.length - 1]?.tracks.push(track);
     }
   }
