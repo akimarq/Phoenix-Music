@@ -1,8 +1,7 @@
-import { Track } from "../../../../components/track";
 import { albums } from "../../albums";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { TrackMore } from "../../../../components/trackmore";
+import { TrackList } from "../../../../components/tracklist";
 
 export default async function albumPage({
   params,
@@ -60,36 +59,10 @@ export default async function albumPage({
             </div>
           </div>
           
+          
         </div>
-        {/* Tracklist area */}  
-        <div className="flex flex-row gap-10">
-          {/* track list */}
-          <div className="flex flex-col items-center justify-center gap-10">
-          {sections.map((section) => (
-            <div key={section.name}>
-              {section.name !== "" && (
-                <p className="text-5xl font-semibold mb-10">{section.name}</p>
-              )}
-              <div className="grid grid-cols-3 gap-5 mb-10">
-                {section.tracks.map((track) => (
-                  <Track
-                    slug={album.slug}
-                    key={track.title}
-                    group=""
-                    title={track.title}
-                    year={track.year}
-                    description={track.description}
-                    dedication={track.dedication}
-                  />
-                ))}
-              </div>
-            </div>
-            ))}
-          </div>
-          {/* track more  info */}
-          <TrackMore/>
-      
-        </div>
+
+        <TrackList slug={album.slug} album={album} sections={sections} />
 
       </div>
 );
