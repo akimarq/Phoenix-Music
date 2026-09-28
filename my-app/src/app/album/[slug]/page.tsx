@@ -66,7 +66,7 @@ export default async function albumPage({
           {section.name !== "" && (
             <p className="text-5xl font-semibold mb-10">{section.name}</p>
           )}
-          <div className="grid grid-cols-3 gap-10">
+          <div className="grid grid-cols-3 gap-10 mb-10">
             {section.tracks.map((track) => (
               <Track
                 slug={album.slug}

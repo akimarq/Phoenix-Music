@@ -40,7 +40,7 @@ export const albums: AlbumData[] = [
                 
                 Truthfully, there was no meticulous planning that went into the medley. I had originally intended on trying to link the tracks in the order they were written, but this idea fell apart really quickly. So it was put together by vibes more than anything, really; mostly by grouping tracks with similar vibes together, and trying to link them to each other. The front end was easiest because many of the tracks here were written close to each other, so it was relatively easy to see how they would fit together. More eclectic tracks like Glitch in the Shadow were harder to weave in, but I think the end results still came together in a way that was mostly satisfying. Mostly.`,
                 cover: "cover.jpg",
-                dedication: "masterGen"
+                dedication: "quindi"
             },
             {
                 group: "",
@@ -352,7 +352,7 @@ export const albums: AlbumData[] = [
                 year: "2025",
                 description: "Quindecim lore states that in the beginning, there were four members who formed the core of the guild. Chell and I, of course, were two. The third is described in the next track. The fourth was a quiet girl who went by Maya. The way Maya was described on the old Quindecim website summed her up perfectly:\n\n“Knowledge is Power for Maya. Quiet but fiercely intelligent, Maya is able to put to rest any argument. She is the calmest of the group and is extremely generous towards others. ”\n\nSomething about her struck me as a character that could have come straight from a Ghibli movie - it probably was her AoTTG skin more than anything (it was very unique). So I decided to turn to two of my favourite Ghibli tracks for inspiration to eventually write the full-length version of Purple Moon - One Summer’s Day and The Sixth Station, both from Spirited Away (one of my two favourite films of all time). The way Hisaishi manages to capture a sense of pensiveness in The Sixth Station in particular really stood out to me; Maya was a quiet person that always seemed like she had something underneath her quiet but cheery surface, and so it was a natural inspiration for this work. This extended version is one that I never really shared widely, and also a re-envisioning of the original 2016 track.\n\nThe name Purple Moon came largely from the fact that her aesthetic was overwhelmingly purple - apparently it was her favourite colour.",
                 cover: "cover.jpg",
-                dedication: "masterGen"
+                dedication: "maya"
             },
             {
                 group: "",
@@ -360,7 +360,7 @@ export const albums: AlbumData[] = [
                 year: "2025",
                 description: "No homage to Quindi’s themes would be complete without acknowledging the person who really started me on these themes. Sapphire was the very first friend I made on AoTTG, and by extension the first friend I made online. She is a central figure in the guild’s history; not only was she the driver behind the guild’s formation, but she was also the one that encouraged me to write theme tracks to begin with.\n\nRadiance was her track, and like Purple Moon this version is a reimagined version of the 2016 original. The center of this piece is the violin, which she was learning at the time. I remember that when I wrote the original, I never really knew what I wanted this piece to say or what it should be about, even when I showed it to her. With the gift of many years of hindsight and time, however, I think I have finally come to an answer with this reimagined version. Radiance is my way of saying thank you to Sapphire for being my friend, even though she has been gone for a long time now. Without her neither the guild nor the themes would have ever happened, let alone be here today ten years later, and I will always be grateful for it.",
                 cover: "cover.jpg",
-                dedication: "masterGen"
+                dedication: "sapphire"
             },
             {
                 group: "",
@@ -368,7 +368,7 @@ export const albums: AlbumData[] = [
                 year: "2025",
                 description: "Writing a second Quindi medley was actually a very spontaneous decision on my part, despite the fairly gargantuan effort that went into writing a medley over 8 minutes long. There was no real reason for it; I really enjoyed writing Medley I, and I just decided that it was time to give a second one a go.\n\nThe first medley was relatively high octane, and perhaps a little rough around the edges. I had/have no problem with that - it was my first foray into writing a medley, and I did it using a format that I could easily work with. That being said, it made sense to me to make some important changes for the second time round. First, the instrumentation was expanded out to include things like strings and brass to create a richer sound. Second, the order of Quindis' themes was changed, and in many instances the sections I used from their themes were changed too. Some of these new snippets also included stylistic changes (e.g. Kai’s After Dark at the very start).",
                 cover: "cover.jpg",
-                dedication: "masterGen"
+                dedication: "quindi"
             }
         ]
     },
@@ -382,12 +382,102 @@ export const albums: AlbumData[] = [
         tracks: [
             {
                 group: "",
-                title: "Track 1",
-                year: "2025",
-                description: "Description Placeholder",
+                title: "Quindecim (2016 Original Theme)",
+                year: "",
+                description: `This track, simply named Quindecim, was one of the first themes I ever tried to write for Quindi and predates almost all of the themes now present in The Master Collection. It was meant to be fanfare-esque theme music for the guild before I decided to write anime-style OPs and EDs, which I felt was a better approach to writing music for the broader guild. I abandoned this piece as a result and for many years it sat as an unfinished draft, with no material after 0:37.
+
+                I came across the original Sibelius file for this track while thinking about putting together a different collection in late 2024. I decided to try and finish it for completion’s sake more than anything, and this is what I came up with.
+
+                Given the track’s history, it felt fitting to include it as the opening track of the 10th Anniversary EP, mainly as a tiny piece of history. Although the OPs and EDs are now basically themes for Quindecim as a whole, I still think this work has a small place as a separate piece of work about the guild.`,
+                cover: "cover.jpg",
+                dedication: "quindi",
+            },
+            {
+                group: "",
+                title: "All or Nothing (10th Anniversary Version)",
+                year: "",
+                description: `The 10th anniversary version of All or Nothing started with a really simple premise: if Clyde was a boss fight, and if the original All or Nothing was the soundtrack to phase one, what should phase two sound like?
+
+I needed this track to be even more high-octane and hype than the original, and many of the changes in this version reflect that goal. This version of All or Nothing really tries to not let up with the energy all the way through until about 01:48 - which, yes, I intended to be a bit of a “main character fighting the boss has their moment reflecting” moment. I basically wanted this track to have an entire anime boss fight arc embedded in less than 3 minutes, power scaling and heroic comeback included. Nothing felt like it fit Clyde more than something like an epic boss fight.`,
+                cover: "cover.jpg",
+                dedication: "clyde",
+            },
+            {
+                group: "",
+                title: "Raining Fury (10th Anniversary Version)",
+                year: "",
+                description: `Raining Fury as a general theme has had so many versions over the ten years: there are three main Raining Fury tracks and one piano version included in the All There Ever Was album, not to mention some once-off versions from way back in the day. All of these tracks, however, share one defining feature: they are all fast-paced, upbeat and thrash around.
+
+For the 10th anniversary version of Raining Fury, I wanted to take things in a very different direction. I deliberately chose to wind down the intensity of the original theme, and instead imagine what Raining Fury would sound like if it were ‘older’ and more folk-esque - in a sense, to reflect a very different version of this theme after the passage of time. In this spirit, this 10th anniversary version is a medley of Raining Fury I, II and III and presents a more gentle, melodic take on Raining Fury.`,
                 cover: "cover.jpg",
                 dedication: "chell",
-            }
+            },
+            {
+                group: "",
+                title: "Dragonfire (10th Anniversary Version)",
+                year: "",
+                description: `I didn’t realise that the original Dragonfire is surprisingly slow. I had always remembered it being decently fast, but listening back to it made me realise that it was slower and more sparse than I would have liked. My surprise and slight dismay describes how I partially feel about the original Dragonfire pretty well: a work that could have been better had I picked up on things like its slow speed at the time. This 10th Anniversary EP gave me a chance to fix some of these issues, while also presenting a brand new version of Dragonfire after several years.
+
+I wanted to amplify several elements of the original when I made this version. In particular, I wanted to really lean into the ‘bravado’ of Brian and his OCs, especially when it came to dragons and Kamen Rider. Brian’s love for these topics in particular is unashamedly loud and proud, and I needed to depict that with this version of his theme. The brass in this track was integral to making that larger-than-life sound happen.
+
+Essentially, if I could make a track that fit with Brian comedically screaming about dragons I knew I had succeeded.`,
+                cover: "cover.jpg",
+                dedication: "brian",
+            },
+            {
+                group: "",
+                title: "After Dark (10th Anniversary Version)",
+                year: "",
+                description: `This 10th anniversary version of After Dark is one of the more radical reinterpretations of the entire collection, with a complete genre shift from laid-back jazz to fast bossa nova. This genre shift was a key factor in me deciding to go all-in on creating 10th anniversary versions of the themes, rather than just doing the odd one-off version.
+
+How this new version came about: I was listening to the original After Dark and found myself inattentively tapping out a faster rhythm for it afterwards. Importantly, this little snippet would just not leave my head, which told me that I needed to actually do something with it. This rhythm eventually became the main building block of this version, which you hear in the guitar and piano. When I experimented with putting together a full band version I was a bit surprised at how well it worked, and the rest came together relatively easily after that. The new breakdown at 2:47 is one of my favourite changes to this theme.`,
+                cover: "cover.jpg",
+                dedication: "kai",
+            },
+            {
+                group: "",
+                title: "Light from Shadow (10th Anniversary Version)",
+                year: "",
+                description: `This track was the first of this collection that I worked on. At first I had thought about just adding strings underneath the original Light from Shadow; I had actually done a version of this many years back, and so would have essentially just re-rendered that. But I started working on this idea around the same time that I experimented with the change to After Dark described above, which led to the idea of doing full re-interpretations/re-imaginations of Quindi themes to form anniversary versions. Once I decided to do that for After Dark, I knew I had to commit to changing this one as well.
+
+As I describe in The Master Collection, the original Light from Shadow is somewhat gloomy and sombre. So much time has passed since this original version, and I wanted this version to reflect something new. If I had to describe what this 10th anniversary version ended up on, it would be a sense of contentedness and peace, and some soft happiness. The piece more or less plays out the same way as the original, albeit with stylstic changes to make it lighter and more gentle, until the new material at 02:35. For me, this moment is where the piece really takes on a new life. Every time I listen to this moment I imagine something like stepping out of the woods into a clearing, or a bit of sun breaking through the clouds.`,
+                cover: "cover.jpg",
+                dedication: "shiro",
+            },
+            {
+                group: "",
+                title: "Flawless Victory (10th Anniversary Version)",
+                year: "",
+                description: `Flawless Victory was already in a pretty good place when I wrote it originally, so its inclusion in this collection is mainly because I wanted to play around with it even more. I really wanted to double down on the funk elements of this track - including making the brass punchier and adding even more groove to the rhythm section. The softer breakdown and subsequent build in the middle in particular is entirely new to this track, and all of the solos here were written as if I were improvising them: off the cuff and almost zero editing.
+
+There’s a part of me that always thinks it would be so much fun to actually play on this track as a musician/performer. I was never a very good bassist back in the day but playing bass on funk tracks was always something that I got super into, and I think this piece would be the same.
+
+The word “fun” appears a lot in my thoughts and descriptions of this theme, which is no coincidence or mistake. I always wanted Aries’ theme to be fun because she herself is such a fun and delightful person to be around. I hope this new version gets closer to that goal.`,
+                cover: "cover.jpg",
+                dedication: "aries",
+            },
+            {
+                group: "",
+                title: "Dominus Noctis (10th Anniversary Version)",
+                year: "",
+                description: `When I wrote the original Dominus Noctis for Xelia, I just knew that I had to come back and add to this track further down the line. It was too good of an idea to pass up working on further, and this collection gave me the perfect excuse to expand on it. Similar to Aries’ Flawless Victory, this was a track that I was already pretty happy with but saw room to do more with the gothic/dark academia vibes that inspired the original.
+
+There are many obvious changes here, such as the solo nylon guitar and slow introduction, the hits with the orchestra and choir at full blast in the middle, and the heavy metal breakdown near the end. Unlike some of the other 10th anniversary version tracks, though, I didn’t really aim to present a different interpretation of the original theme with this version of Dominus Noctis. Rather, I wanted to do something that added more flair and elegance to the original, which I hope comes across in this 10th anniversary version.`,
+                cover: "cover.jpg",
+                dedication: "xelia",
+            },
+            {
+                group: "",
+                title: "Komorebi (10th Anniversary Version)",
+                year: "",
+                description: `I have said a decent amount elsewhere about the meaning and personal significance of this theme. In this 10th anniversary version of Komorebi I wanted to build on the gentle, ethereal softness of the original while adding lots of polish. I included the main thematic material from Sol’s second theme, The First Star in the Sky, as a small nod to how things have changed since 2018.
+
+My favourite part of the original was the guitar solo at the end. This solo returns in this version, and once again is my favourite part. I’ve always wanted this part of the theme to really sing, and soar above everything else; I think this version of the solo gets a bit closer to that.
+
+A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere along the way from GP6 to GP8 (which I use now), the rendering engine changed and now the audio in the original GP6 file for Komorebi renders completely differently. As a result, I can’t render the original track with its original sounds anymore. Another minor reason for me to do a 10th anniversary version of this track was to have an updated version of the score that would render properly.`,
+                cover: "cover.jpg",
+                dedication: "sol",
+            },
         ]
     },
     {

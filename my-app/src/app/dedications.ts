@@ -1,5 +1,6 @@
 export const dedicationStyles: Record<string, string> = {
     masterGen: "bg-gradient-to-br from-[#F9F9F9] via-[#7B4D87] to-[#61256A]",
+    quindi: "bg-gradient-to-br from-[#F9F9F9] to-[#68C3FE]",
     chell: "bg-gradient-to-br from-[#F9F9F9] to-[#458B00]",
     phoenix: "bg-gradient-to-br from-[#B2C8FD] via-[#FFC1B7] via-[#B2C9F6] to-[#B2C8FD]",
     shiro: "bg-gradient-to-br from-[#C34A8D] to-[#AF1569]",
@@ -19,4 +20,6 @@ export const dedicationStyles: Record<string, string> = {
     xelia: "bg-gradient-to-br from-[#EE4B4B] via-[#220A0A] to-[#EE4B4B]",
     leafy: "bg-gradient-to-br from-[#76A9FF] via-[#9FC1FF] to-[#76A9FF]",
     shi: "bg-gradient-to-br from-[#18CBE7] via-[#077485] to-[#18CBE7]",
+    sapphire: "bg-gradient-to-br from-[#F9F9F9] to-[#0F52BA]",
+    maya: "bg-gradient-to-br from-[#F9F9F9] to-[#38097a]",
 };
