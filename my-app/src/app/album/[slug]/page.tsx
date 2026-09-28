@@ -43,19 +43,19 @@ export default async function albumPage({
           {/* Album Info */}
           <div className="flex flex-col h-100 bg-black rounded-lg p-10">
             <div className="flex flex-col justify-center h-[30%] w-175  text-white"> 
-                <h1 className="text-6xl">{album.title}</h1>
+                <p className="text-6xl font-semibold">{album.title}</p>
             </div>
 
             <div className="flex flex-coljustify-center h-[10%] w-175  text-white"> 
-                <h1 className="text-3xl">{album.subtitle}</h1>
+                <p className="text-3xl">{album.subtitle}</p>
             </div>
 
             <div className="flex flex-col justify-center h-[10%] w-175  text-white"> 
-                <h1 className="text-2xl">{album.datePublished}</h1>
+                <p className="text-2xl">{album.datePublished}</p>
             </div>
 
             <div className="flex flex-col justify-center h-[50%] w-175  text-white"> 
-                <h1 className="text-2xl">{album.description}</h1>
+                <p className="text-2xl">{album.description}</p>
             </div>
           </div>
           
@@ -64,7 +64,7 @@ export default async function albumPage({
         {sections.map((section) => (
         <div key={section.name}>
           {section.name !== "" && (
-            <h2 className="text-5xl font-bold mb-10">{section.name}</h2>
+            <p className="text-5xl font-semibold mb-10">{section.name}</p>
           )}
           <div className="grid grid-cols-3 gap-10">
             {section.tracks.map((track) => (

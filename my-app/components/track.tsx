@@ -15,8 +15,8 @@ export const Track = ({
 }) => {
     return (
         <div>
-        <h1 className="text-5xl font-bold mb-10">{group}</h1>
-        <div className="flex flex-col items-center justify-start h-100 w-75 bg-black rounded-lg text-white gap-5"> 
+        <p className="text-5xl font-semibold mb-10">{group}</p>
+        <div className="flex flex-col items-center justify-start h-100 w-75 bg-black rounded-lg text-white gap-5 hover:scale-105 transition-all duration-150 hover:cursor-pointer hover:shadow-[0px_0px_19px_6px_rgba(255,_255,_255,_0.09)]"> 
             
             
             {dedication !== "" && (
@@ -39,8 +39,8 @@ export const Track = ({
             
             {/*  */}
             <div className="flex flex-col items center justify-center-75 text-white">
-                <h1 className="text-2xl font-bold text-center">{title}</h1>
-                <h1 className="text-l text-center">{year}</h1>
+                <p className="text-2xl font-semibold text-center">{title}</p>
+                <p className="text-l font-medium text-center">{year}</p>
                 {/* <p className="text-md">{description}</p> */}
             </div>
         </div>
