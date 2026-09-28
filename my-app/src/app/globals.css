@@ -10,7 +10,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --animate-panel-in: panel-in 0.35s ease-out;
+  --animate-panel-in: panel-in 0.2s ease-in-out;
 }
 
 @media (prefers-color-scheme: dark) {

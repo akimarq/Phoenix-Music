@@ -50,7 +50,11 @@ export function TrackList({
                 ))}
             </div>
             {/* track more  info */}
-            {selected ? <TrackMore track={selected}/> : null}
+            <div className={`sticky top-15 z-50 self-start overflow-hidden transition-[width] duration-200 ease-out ${selected ? "w-175" : "w-0"}`}>
+                <div className="w-175">
+                    {selected ? <TrackMore track={selected}/> : null}
+                </div>
+            </div>
             </div>
         </div>
     );}
