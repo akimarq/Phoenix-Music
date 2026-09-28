@@ -69,6 +69,7 @@ export default async function albumPage({
           <div className="grid grid-cols-3 gap-10">
             {section.tracks.map((track) => (
               <Track
+                slug={album.slug}
                 key={track.title}
                 group=""
                 title={track.title}

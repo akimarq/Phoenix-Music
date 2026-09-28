@@ -1,12 +1,15 @@
 import { dedicationStyles } from "@/app/dedications";
+import {albums, albumTrackLogos} from "@/app/albums";
 
 export const Track = ({
+    slug,
     group,
     title,
     year,
     description,
     dedication,
 }: {
+    slug: string;
     group: string;
     title: string;
     year: string;
@@ -24,8 +27,8 @@ export const Track = ({
                     <div
                         className={`h-60 w-60 ${dedicationStyles[dedication] ?? "bg-white"}`}
                         style={{
-                            maskImage: "url(/QuindiLogo.svg)",
-                            WebkitMaskImage: "url(/QuindiLogo.svg)",
+                            maskImage: `url(/${albumTrackLogos[slug]})`,
+                            WebkitMaskImage: `url(/${albumTrackLogos[slug]})`,
                             maskSize: "contain",
                             maskRepeat: "no-repeat",
                             maskPosition: "center",

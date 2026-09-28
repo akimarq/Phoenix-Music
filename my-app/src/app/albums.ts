@@ -17,6 +17,12 @@ export type AlbumData = {
     tracks: TrackData[];
 };
 
+export const albumTrackLogos: Record<string, string> = {
+    "master-collection": "QuindiLogo.svg",
+    "10th-anniversary": "10thAnnLogo_White.svg",
+    "all-there-ever-was": ""
+};
+
 export const albums: AlbumData[] = [
     {
         slug: "master-collection",
@@ -380,7 +386,7 @@ export const albums: AlbumData[] = [
                 year: "2025",
                 description: "Description Placeholder",
                 cover: "cover.jpg",
-                dedication: "",
+                dedication: "chell",
             }
         ]
     },
