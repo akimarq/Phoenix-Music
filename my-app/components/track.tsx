@@ -7,7 +7,6 @@ export const Track = ({
     group,
     title,
     year,
-    description,
     dedication,
     onToggle,
     isCompact,
@@ -16,7 +15,6 @@ export const Track = ({
     group: string;
     title: string;
     year: string;
-    description: string;
     dedication: string;
     onToggle: () => void;
     isCompact: boolean;

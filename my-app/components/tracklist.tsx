@@ -40,7 +40,6 @@ export function TrackList({
                             group=""
                             title={track.title}
                             year={track.year}
-                            description={track.description}
                             dedication={track.dedication}
                             isCompact={selected !== null}
                         />
