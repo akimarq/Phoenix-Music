@@ -33,7 +33,7 @@ export default async function albumPage({
         {/* Album info area */}
         <div className="flex flex-row items-center justify-center h-screen gap-10">
           {/* Album cover */}
-          <div className="relative flex flex-col items-center justify-center h-100 w-100  text-white">
+          <div className="relative flex flex-col items-center justify-center h-100 w-100  text-white border border-white/10 rounded-lg">
             <Image 
               src={`/${album.cover}`}
               alt={slug}
@@ -42,9 +42,9 @@ export default async function albumPage({
             />
           </div>
           {/* Album Info */}
-          <div className="flex flex-col h-100 bg-black rounded-lg p-10">
+          <div className="flex flex-col h-100 bg-black rounded-lg p-10 border border-white/10">
             <div className="flex flex-col justify-center h-[30%] w-175  text-white"> 
-                <p className="text-6xl font-semibold">{album.title}</p>
+                <p className="text-6xl">{album.title}</p>
             </div>
 
             <div className="flex flex-coljustify-center h-[10%] w-175  text-white"> 
