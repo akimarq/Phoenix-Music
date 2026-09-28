@@ -74,6 +74,7 @@ export default async function albumPage({
                 title={track.title}
                 year={track.year}
                 description={track.description}
+                dedication={track.dedication}
               />
             ))}
           </div>
