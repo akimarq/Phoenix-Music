@@ -147,7 +147,7 @@ export const albums: AlbumData[] = [
             {
                 group: "Arc 3: 2018-2019",
                 title: "Yuuhi no Omoide [Sunset Memories] (OP3)",
-                year: "2018-2019",
+                year: "2018",
                 description: "For the longest time - in fact, up until this album was collated in 2025 - there was no OP3. I find it difficult to explain why this is the case, other than to say that 2018 in general wasn’t a super productive year for me - as evidenced by this arc of the album having the lowest number of tracks despite spanning two years. Reflecting on the 2018-2019 period, I remember hitting a fairly massive period of writer’s block, and for some time I was unsure if I would continue writing music.\n\nStill, that doesn’t mean I never tried. Although this piece was only completed in late 2024/2025, the main riff in the introduction was written in about late 2019/early 2020. It was one of many ideas/concepts that I started but just never got around to finishing until much later. Given both the time the original idea was written, and the glaring gap in the discography, it felt fitting to make this track OP3 when I finally did find a way to finish it, especially because of how it complements Shine.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495264%3Fsecret_token%3Ds-rLfv3SncOoF&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "masterGen"
@@ -155,7 +155,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "Shine (ED3)",
-                year: "2018-2019",
+                year: "2018",
                 description: "In contrast to OP3, I did actually write ED3 in 2018. For all intents and purposes, Shine is a really simple track, and I think that’ll be obvious if you listen to it. In hindsight I think that’s okay given that 2018-2019 weren’t super productive years for me in general, as described above. I was really making music just to keep something going and not get rusty, and this was one of the few pieces that made it out alive.\n\nIt’s hard to remember a lot about the process behind writing this track. I have a feeling that it was very much a “go with the flow” kind of composition process. I think I just wanted to write something that was vaguely feel-good and warm, without being overly cutesy. That’s certainly the vibe I get listening to this track now - something that might come on over images of a sunset.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495176%3Fsecret_token%3Ds-LgcyoDsDdyR&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "masterGen"
@@ -163,7 +163,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "Raining Fury II (Chell)",
-                year: "2018-2019",
+                year: "2018",
                 description: "Raining Fury II was my first foray at trying to write a second theme for someone - something that I still haven’t done too much of. I can’t quite remember why I started writing a second Chell theme, but I have a sense it’s because I started a new track and realised it fit with the first Raining Fury.\n\nI think this track takes a nice turn mood-wise compared to the first Raining Fury. It still retains the signature heaviness of the first track and its core melodic/rhythmic idea, but starts and ends in a very different manner. And while at the time I never foresaw Raining Fury III coming into being as well (see below), I think this piece forms a pretty good ‘glue’ between that track and the original too.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495136%3Fsecret_token%3Ds-XfmtU8JzpXP&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "chell"
@@ -171,7 +171,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "After Dark (Kai)",
-                year: "2018-2019",
+                year: "2018",
                 description: "This is technically Kai’s second theme, but unlike the other second themes, After Dark replaces Kai’s original theme. This is because I never liked what I did for Kai’s original theme; it felt surface-level, a bit rushed and ultimately not all that meaningful. I had wanted to replace Kai’s original theme for a while, and condemn it to the back shelves of my collection.\n\nStill, the two themes share some things in common. For starters, both of them were jazz-inspired. However, the original theme was really flimsy and generic to the point of being derivative - which, in hindsight was very clearly not the right choice for someone like Kai. In contrast, I think After Dark has a more coherent, full sound with a more defined narrative, both of which I think fit Kai far better. Kai is someone I would very happily have drinks with (same with many others!), and I wanted After Dark to almost be the background to such a setting. I think After Dark managed to achieve what I wanted the original track to do, and I was pleased at how good of an addition it was to this collection.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495244%3Fsecret_token%3Ds-KASgO3wRyNj&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "kai"
@@ -179,7 +179,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "Komorebi (Sol)",
-                year: "2018-2019",
+                year: "2019",
                 description: "The word komorebi (こもれび) in Japanese refers to the beams of light that you see shining in between the leaves and branches of trees. It’s a word that has no direct English translation, despite it being a phenomenon that we as English speakers understand. I’ve always found the concept and the word quite beautiful.\n\nKomorebi took me a year to write, in part because I initially had no idea what I really wanted to say with it. It was only with time that I really managed to figure out what I wanted this piece to be, because this piece’s development coincided with many things to do with Sol’s and my relationship (in general terms). Like other tracks during this time, Komorebi evolved in an entirely organic way; it grew slowly, and without much of me forcing something down on a page. Komorebi still remains one of my favourites for obvious reasons, and is a piece I’ve revisited time and time again.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495145%3Fsecret_token%3Ds-7Y9MCMesezd&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "sol"
@@ -187,7 +187,7 @@ export const albums: AlbumData[] = [
             {
                 group: "Arc 4: 2020-2022",
                 title: "Fly Onwards (OP4)",
-                year: "2020-2022",
+                year: "2020",
                 description: "It took a long time for me to even consider writing another OP or ED after Shine. In the years between Shine (2018) and Fly Onwards (2021) many major events happened in my life, all while the literal Covid-19 pandemic happened in the background as well.\n\nAfter a year of putting my head down in my personal life, and another year of massive turbulence, I started getting back into writing themes more regularly in 2021. Fly Onwards came out of that process, and I wanted it to be a return to form. It emulates some aspects of Soar and Take Back The Sky, such as the inspiration from anime openings and the focus on melodic content. At the same time, I wanted this new OP track to reflect something new and different to previous OPs. In particular, I had been reflecting a bit on how terrible 2020 was in many ways, but also how we as a guild had huddled together during that time and came out of it the other end. The name Fly Onwards is a deliberate nod to persevering even when things get rough.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495248%3Fsecret_token%3Ds-PT5De8U8uez&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "masterGen"
@@ -195,7 +195,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "Until We Fall (ED4)",
-                year: "2020-2022",
+                year: "2020",
                 description: "This track is another one that was started several years before it was actually finished (in this case, 2021). This track was only completed and named in late 2024, meaning that this album is the first time it is being presented in full, just like OP3.\n\nA very common problem I run into when writing themes is trying to figure out where a piece should go next. Nine times out of 10, I’ll find something that works (or something will come to me), and everything kind of works out. This piece was an example of the other one time out of 10. I would revisit this one constantly, only to find myself with writer’s block time and time again. It was only in late 2024 that I figured that the best way to finish this piece was to keep it simple - the opening was already so clearly defined that it was worth reusing at the end, and just trying to ‘glue’ the rest together.\n\nThe name was chosen to specifically complement OP4 - i.e. Fly Onwards, Until We Fall.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495168%3Fsecret_token%3Ds-xh49Uvcbh3z&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "masterGen"
@@ -203,7 +203,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "In the Zone (Robin)",
-                year: "2020-2022",
+                year: "2022",
                 description: "This track is unfortunately another instance where I really wish I could remember exactly why I wrote the track the way that I did. Sadly, I have basically no records at all as to how this track came to be; I don’t have any draft/work-in-progress versions, no written or draft notes, no messages from me talking about it and no memory of how or when this track was written.\n\nThere are only two thoughts that come to mind when I listen to this again: a) it weirdly feels like a track from one of the earlier Sonic games, and b) it sounds like it would be a good counterpart to Dragonfire. I can't tell if either of these ideas were things that I had also considered at the time - I have a feeling that the second point was, because I know Brian and Robin are good friends - but I think this track still turned out ok despite it?",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495164%3Fsecret_token%3Ds-L9sAtRvvVza&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "robin"
@@ -211,7 +211,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "Song of the Voyager (Celtic)",
-                year: "2020-2022",
+                year: "2022",
                 description: "Song of the Voyager is a piece I had so much fun with. Celtic’s and Daisy’s themes were written very close to each other, and part of that is because they were both included in Medley I. Medley I came around shortly after they joined Quindi, and I had unusually clear ideas as to what themes I wanted to write for both of them.\n\nThis theme draws heavy inspiration from sea shanties. C, of course, is a sailor herself and is huge into sea shanties (she introduced me to so many of them), so fashioning it loosely on sea shanties and sea songs was a no-brainer. This track isn’t intended to be a sea shanty per se but it tries to draw on a lot of its features, such as having lots of ‘voices’ and some call-and-response. It feels like the kind of track that would be fun with lyrics, but I’ve never been able to come up with anything good.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495172%3Fsecret_token%3Ds-voWlHFVPEjL&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "c"
@@ -219,7 +219,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "Dreams of the Stars Above (Daisy)",
-                year: "2020-2022",
+                year: "2022",
                 description: "Dreams of the Stars Above re-uses a bit of material from a composition I did in high school called \"Fragments\". In brief, \"Fragments\" was based on a photo board of a story depicting someone gaining a friend, and subsequently losing them. This piece had two very clear thematic halves - one for meeting the friend and one for the friend disappearing - and it was the second half that was adapted into Dreams.\n\nFunnily enough, though, I wanted this track to envision almost the exact opposite story to what I originally wrote \"Fragments\" for. I can think of few greater dreamers in the guild than Daisy, in a good way. Ultimately, the narrative in my head for this piece was a story of looking up at the night sky and dreaming of the worlds, and friends, beyond where we are now. To me this is also how the piece plays out; I like to think that there is an obvious but notable moment when Daisy/the character looks up to the sky, and finally sees the stars above.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495240%3Fsecret_token%3Ds-snymFMDJHQV&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "masterGen"
@@ -227,7 +227,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "All There Ever Was (Phoenix)",
-                year: "2020-2022",
+                year: "2022",
                 description: "Ever since Ascension I grappled with the idea of giving myself another theme, and I made several attempts at this between 2016 and 2020. However, the initial concepts/ideas I had just never quite worked - I was never satisfied that these initial ideas were actual representations of me as a character and/or as a person. I think All There Ever Was still doesn’t quite capture who I am, but it gets closer.\n\nAll There Ever Was was written in the middle of the Covid-19 pandemic, at the height of a round of recurring infection waves and extreme anxiety. I was feeling particularly vulnerable for many reasons: the pandemic’s role in that is obvious, and it had coincided with me leaving home and moving overseas by myself to start a new chapter of my life. To say that 2020 did not go the way I imagined is an understatement, and it was against this backdrop that All There Ever Was was born. I think it would be weird of me to not state that writing this was cathartic, at least in some form, and a way of dealing with having my life flipped upside down at the time.\n\nThe name of the piece comes from a phrase/sentence that, for some reason, stayed firmly in my mind as I wrote it: “[I am] all there ever was, and [I am] all there ever will be”. I don’t know where I got this from as I can’t find a quote that even remotely resembles the above phrase. However, I think that it nicely sums up how I feel both about this piece and about myself. In short, I think the idea of “all there ever was” is my way of just accepting that things are the way they are, and no matter what happens.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495180%3Fsecret_token%3Ds-tpTihahwMJj&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "phoenix"
@@ -235,7 +235,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "Shiro of the Wind (Shiro)",
-                year: "2020-2022",
+                year: "2022",
                 description: "From its description, it might be possible to tell that Light from Shadow (Shiro’s first theme) has been one of the more memorable tracks for some people in Quindi. However, it was written in a very different Quindi to today - one where AoTTG was still our main platform, and one where the dynamics of the guild were much more involved and complex (not always in a good way). A lot of the background for Light from Shadow was caught up in that. As a result, to me Light from Shadow has always been a slight outlier as a track that was relevant at one point in time, but maybe has become less so as time has gone on. So I’ve never been too sure as to how well Light from Shadow has aged as a track for and about Shiro.\n\nShiro of the Wind was written to complement Light from Shadow, but not replace it. I don’t really know what word best describes what I wanted with this track, but I did want it to be something a bit more hopeful than the somewhat gloomy sound of her first theme. Maybe hopeful is the word I'm looking for? Regardless, I wanted this track to serve as a counterpart to her original, and to perhaps capture the Shiro that I know today rather than the one in 2016.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495149%3Fsecret_token%3Ds-SOg0ahHlgZA&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "shiro"
@@ -243,7 +243,7 @@ export const albums: AlbumData[] = [
             {
                 group: "Arc 5: 2023-2024",
                 title: "Guiding Star (OP5)",
-                year: "2023-2024",
+                year: "2023",
                 description: "The main melody for this track, which is in the opening, had actually been written sometime back in 2018. It was originally written to be the main moment for an orchestral work called “Reflections”, but this idea never really got off the ground. Although I really liked this melody in isolation, I just couldn’t work an entire orchestral piece around it despite my best efforts.\n\nI remember that when I started thinking about an OP5, I trawled through every unfinished draft and half-baked idea I could find to get something, anything to work with. This led me to the draft file for “Reflections” after sitting in the metaphorical file drawer for a couple of years, and in turn rediscovering this main melody. I’m glad I could use it here.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495184%3Fsecret_token%3Ds-XzHiTe9HcuZ&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "masterGen"
@@ -251,7 +251,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "The Clouds Remind Me Of You (ED5)",
-                year: "2023-2024",
+                year: "2023",
                 description: "This track was another one that came from a more personal place, though not for any specific reason. I just wanted to write something that captured both a sense of nostalgia and joy for myself more than anything (2023 was a stressful year). It’s probably a little unusual to have an anime ED-style track be so stripped back and bare, but I wanted to express something really… simple, without all of the usual embellishments and layers that I write my tracks with.\n\nOne thing that I didn’t really clock until I started writing these notes was that I’ve named a lot of my tracks around sky-related imagery: Soar, Skybound, this track, Fly Onwards, Take Back the Sky, Dreams of the Stars Above… I don’t really know why I’m so taken by sky-related imagery, especially for these themes. I don’t think it’s an age thing because I was 19 when both Soar and Skybound were written; maybe I just find something sentimental in the idea of looking up at the sky and finding meaning in it.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040497664%3Fsecret_token%3Ds-AH0zZs9YTej&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "masterGen"
@@ -259,7 +259,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "All or Nothing (Clyde)",
-                year: "2023-2024",
+                year: "2023",
                 description: "In 2023, I started becoming acutely conscious of the fact that I had a growing bunch of tracks associated with people that were no longer around - more often than not, for disappointing reasons. These were people that did not deserve a place in Quindi, in my opinion, yet I was reminded of their existence every time I opened my music folder and saw the mp3 files with their names still attached.\n\nI decided to start reclaiming some of these works, first by stripping these tracks of their original associations and then by reusing some of the musical material in these older tracks to make new ones. Part of the reason for reclaiming this material was because I felt that the musical content in it was actually workable, and I thought that it would be a shame to have it permanently associated with people I didn’t want. I asked Quindi for their thoughts on whether this was an okay thing to do just to make my intentions clear, and the feedback was positive.\n\nAll or Nothing is one example of me reclaiming material. The first part was written as part of Medley I, but some parts that come after were repurposed material from an older theme. Personally, I think said material fits far better (and is ultimately more deserved) in Clyde’s theme, which really needed to be high-octane from start to finish. I wanted Clyde's theme to essentially be hype boss battle music, and the one snippet I reclaimed fit this goal really well.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495224%3Fsecret_token%3Ds-hlq9Q7Hojvq&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "clyde"
@@ -267,7 +267,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "Ignite (Radar)",
-                year: "2023-2024",
+                year: "2024",
                 description: "All or Nothing and Ignite were both introduced in Medley I, though the former was fleshed out first. Given how close Clyde and Radar are, it was obvious to me that Radar’s theme had to satisfy the following characteristics:\n\n- It had to complement Clyde’s theme\n- It had to have an equal level of badassery to it\n- It couldn’t be too similar at the same time - Radar and Clyde are distinct people\n\nIgnite was written to try and meet these criteria. It features a similar kind of structure and a similar level of intensity, while not necessarily being as high-octane as Clyde’s theme. One key point of difference is that the drums in Ignite are deliberately heavier because Radar himself is a drummer. I really liked how this theme turned out to be grittier compared to Clyde’s; I wanted this track to instill the feeling of Radar slowly, methodically setting something on fire and watching it go up in flames - boss battle music, again, but with a grungier vibe.\n\nShout out to Radar for his suggestions, too. I didn’t quite stick the landing the first time I shared this track, and his comments helped me refine this to be far better. (The 10-year version is even better.)",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495153%3Fsecret_token%3Ds-fhnEt6KEm1y&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "radar"
@@ -275,7 +275,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "Raining Fury III (Chell)",
-                year: "2023-2024",
+                year: "2023",
                 description: "When I wrote the original Raining Fury, I don’t think I ever envisioned that it would grow into a trilogy. In fact, at the time I didn’t think I would even be writing Quindi themes after the first year or so, and so reflecting on this specific entry is kind of funny in hindsight. In a similar vein, writing a third iteration of Raining Fury wasn’t something I considered doing until Chell herself made a request for me to revisit Raining Fury in 2023. Initially I wasn’t sure I had anything else to offer in terms of making a new Raining Fury track, but I was pleasantly surprised that I was able to come up with what I did. Raining Fury III in particular takes on a noticeably different, more villainous vibe, like a third-phase boss fight. It retains much of the DNA of the original though, especially in the second half of the track.\n\nStill, I really don’t think I have anything left, so I’m not sure there will ever be a Raining Fury IV. (I’d rather write something new instead.)",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495177%3Fsecret_token%3Ds-o0iEOCz9cvn&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "chell"
@@ -283,7 +283,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "Valkyrie (Tess)",
-                year: "2023-2024",
+                year: "2024",
                 description: "I always feel a bit of shame when I think about how long this theme took. It might just take the prize for “longest time it took to write a theme”, coming it at nearly five years of continuous work. (I’m not counting OP3 in this because the actual writing for that one happened very quickly.) The reason for that is that no matter what I tried, this was one theme that would just not come together. There are at least three different concept snippets for Tess’ theme that I still have saved, never mind how many snippets I probably deleted out of frustration. While some of these concepts eventually found future homes, others did not. It actually wasn’t until Medley I that any musical material for Tess’ theme was written - and, perhaps a bit stubbornly, I locked myself into that material by including it in the medley (I couldn’t retcon it, after all). I think it did pay off though, because letting it iterate over another 3-4 years clearly allowed it to come together.\n\nValkyrie are, of course, the Norse female warriors who guide the souls of the dead to Valhalla. I don’t think the ‘carrying the dead’ part really applies to Tess, but I do think the inherent nature of a guiding or helping figure does, and that was the depiction I wanted with the choice of name. I also wanted this track to be upbeat, just like Tess. By this point, it’s probably obvious that the names I choose aren’t perfect on the surface but still broadly fall in line with what I’m intending…",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495161%3Fsecret_token%3Ds-yiDmKoF07YR&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "tess"
@@ -291,7 +291,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "Flawless Victory (Aries)",
-                year: "2023-2024",
+                year: "2024",
                 description: "Flawless Victory is the first of four themes that were originally conceived when writing Medley II. Realistically, there was no way an Aries theme would be anything other than something jazz-funk. I described Aries’ OC as “if Yelan [Genshin] was a JoJo character” when introducing this piece, and I think that’s still fairly true to form (just look at any art of her OC, if you can).\n\nThe basic vibe for this track was completed relatively early on in the process of writing Medley II - although truthfully, I had wanted to write something like this for several years. I just didn’t have any ideas in me up until I started working on Medley II. Once I got underway though, it was actually relatively smooth sailing from what I remember - I kind of just got into it, and honestly it was a huge amount of fun. There’s also a bit of a cheeky reference to a slightly obscure meme in the track, which at least one person has picked up on. The hint is that it’s in the saxophone line.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495152%3Fsecret_token%3Ds-ycDJczGpVMu&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "aries"
@@ -299,7 +299,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "Dominus Noctis (Xelia)",
-                year: "2023-2024",
+                year: "2024",
                 description: "Dominus Noctis - “Lord of the Night” in Latin - has become one of my absolute favourites on this album, as selfish as that sounds. Although it was written as part of Medley II, it wasn’t until I actually sat down and started working it into its own dedicated theme that I realised just how much I enjoyed it as a concept and as a track. It's a rare moment indeed when I get surprised by something I've written myself, but I remember my jaw dropping when I rendered an early version of the first 15 sections. I was floored at how it sounded, and locked in to finish it very quickly. I turned this track around in less than two weeks.\n\nI think this track is unique, without a doubt - it has a really distinct sound that I think separates it from many other tracks in this collection. The track itself draws on both Xelia's OC and herself as a person. Her OCs, as far as I understand/remember, have tended to draw heavily on gothic/dark academia aesthetics. The real Xelia is a mischievous gremlin with a hilariously fatalistic sense of humour, and I think this track suits that as well.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495256%3Fsecret_token%3Ds-fDzYhBgqLJd&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "xelia"
@@ -307,7 +307,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "A Perfect Medley (Leafy)",
-                year: "2023-2024",
+                year: "2024",
                 description: "A Perfect Morning is the third of four themes that was written with Medley II. In contrast to the other three, though, this track isn’t scored for many instruments or highly ornamented in any way. By design, the track is simple, short but sweet. The reason for this is because Leafy’s appreciation for some of the simplest, but cosiest things in life has always stood out to me.\n\nWith that in mind, I imagine this track to be a bit like sitting in the soft sun, enjoying a morning cup of coffee and a slice of toast or something. To me, anyway, there are few better mornings than that.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495133%3Fsecret_token%3Ds-2wc2ilsB290&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "leafy"
@@ -315,7 +315,7 @@ export const albums: AlbumData[] = [
             {
                 group: "",
                 title: "Prelude to the Dawn (Shi/Sasha)",
-                year: "2023-2024",
+                year: "2024",
                 description: "Prelude to the Dawn is the last of the four themes that originated with the second Quindecim Medley. When I sat down to think about what this track should sound like, two thoughts immediately came to mind. First, Sasha is such an integral part of Shi’s art that it almost felt wrong to write without placing Sasha center stage. Second, I discovered that the only way I felt like I could do this theme justice was to draw on the same kind of creative spirit that I had when AoT(TG) was a much bigger part of my life - in part because Shi was also on AoTTG, and I wanted to draw directly from this as a source of inspiration.\n\nTo that end, Prelude is a little different from other themes in this arc, in that it’s both reminiscent of the past and forward-facing at the same time (if that makes sense). It also has a little more ‘narrative’ than most of the other themes, i.e. I think the track more clearly expresses a short story as opposed to a theme/intro music for the character/person in question.",
                 cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495160%3Fsecret_token%3Ds-hjxL3Kk6wP3&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "shi"
