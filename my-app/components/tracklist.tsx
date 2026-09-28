@@ -32,6 +32,7 @@ export function TrackList({
                             onToggle={() =>
                                 setSelected((current) =>
                                 current?.title === track.title ? null : track
+                                    
                                 )
                             }
                             slug={album.slug}
@@ -41,6 +42,7 @@ export function TrackList({
                             year={track.year}
                             description={track.description}
                             dedication={track.dedication}
+                            isCompact={selected !== null}
                         />
                         ))}
                     </div>
@@ -48,7 +50,7 @@ export function TrackList({
                 ))}
             </div>
             {/* track more  info */}
-            {selected ? <TrackMore track={selected} /> : null}
+            {selected ? <TrackMore track={selected}/> : null}
             </div>
         </div>
     );}
