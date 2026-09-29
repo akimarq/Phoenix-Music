@@ -2,6 +2,7 @@ import { albums } from "../../albums";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { TrackList } from "../../../../components/tracklist";
+import { AlbumDesc } from "../../../../components/albumdesc";
 
 export default async function albumPage({
   params,
@@ -30,37 +31,7 @@ export default async function albumPage({
     return (
       <div className="flex flex-col items-center justify-center h-auto gap-30">
         {/* Album info area */}
-        <div className="flex flex-row items-center justify-center h-screen gap-10">
-          {/* Album cover */}
-          <div className="relative flex flex-col items-center justify-center h-100 w-100  text-white border border-white/10 rounded-lg">
-            <Image 
-              src={`/${album.cover}`}
-              alt={slug}
-              fill
-              className="object-cover rounded-lg"
-            />
-          </div>
-          {/* Album Info */}
-          <div className="flex flex-col h-100 bg-black rounded-lg p-10 border border-white/10">
-            <div className="flex flex-col justify-center h-[30%] w-175  text-white"> 
-                <p className="text-6xl">{album.title}</p>
-            </div>
-
-            <div className="flex flex-coljustify-center h-[10%] w-175  text-white"> 
-                <p className="text-3xl">{album.subtitle}</p>
-            </div>
-
-            <div className="flex flex-col justify-center h-[10%] w-175  text-white"> 
-                <p className="text-2xl">{album.datePublished}</p>
-            </div>
-
-            <div className="flex flex-col justify-center h-[50%] w-175  text-white"> 
-                <p className="text-2xl">{album.description}</p>
-            </div>
-          </div>
-          
-          
-        </div>
+        <AlbumDesc album={album} />
 
         <TrackList slug={album.slug} album={album} sections={sections} />
 
