@@ -1,14 +1,15 @@
 'use client';
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
+import { setNavHidden, useNavHidden } from "./navstate";
 export const Navbar = () => {
-    const [hidden, setHidden] = useState(false);
+    const hidden = useNavHidden();
     useEffect(() => {
         let lastY = window.scrollY;
         const onScroll = () => {
             const y = window.scrollY;
             if (Math.abs(y - lastY) < 8) return;
-            setHidden(y > lastY && y > 64);
+            setNavHidden(y > lastY && y > 64);
             lastY = y;
         };
         window.addEventListener("scroll", onScroll, { passive: true });
