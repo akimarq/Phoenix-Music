@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import { Navbar } from "../../components/navbar";
 import Popup from "../../components/popup";
+import { PlayingGlow } from "../../components/playingglow";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       
       <body className="min-h-full flex flex-col">
+        <PlayingGlow />
         <Popup />
         <Navbar />
         <main>{children}</main>
