@@ -24,7 +24,7 @@ export function TrackList({
                 {sections.map((section) => (
                     <div key={section.name}>
                     {section.name !== "" && (
-                        <p className="text-5xl font-semibold mb-10">{section.name}</p>
+                        <p className="text-5xl font-semibold mb-10 text-shadow-[0_3px_10px_rgb(0,0,0,1)]">{section.name}</p>
                     )}
                         <div className="grid grid-cols-[auto_auto_auto] gap-5 mb-10">
                             {section.tracks.map((track) => (
@@ -49,8 +49,8 @@ export function TrackList({
                     ))}
                 </div>
                 {/* track more  info */}
-                <div className={`sticky top-15 z-50 self-start overflow-hidden transition-[width] duration-200 ease-out ${selected ? "w-175" : "w-0"}`}>
-                    <div className="w-175">
+                <div className={`sticky top-15 z-50 self-start overflow-hidden transition-[width] duration-200 ease-out ${selected ? "w-[45.75rem]" : "w-0"}`}>
+                    <div className="w-[45.75rem] p-4">
                         {selected ? <TrackMore key={selected.title} track={selected} /> : null}
                     </div>
                 </div>

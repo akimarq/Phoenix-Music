@@ -24,7 +24,7 @@ export const TrackMore = ({ track }: { track: TrackData }) => {
     return (
         <div>
             <Script id="soundcloud-widget-api" src="https://w.soundcloud.com/player/api.js" onReady={connect} />
-            <div className="flex flex-col items-center justify-start h-200 w-175 bg-black rounded-lg text-white gap-5 sticky top-20 z-50 border border-white/10 animate-panel-in">
+            <div className="flex flex-col items-center justify-start h-200 w-175 bg-black rounded-lg text-white gap-5 sticky top-20 z-50 border border-white/10 animate-panel-in shadow-[0_3px_10px_rgb(0,0,0,0.5)]">
                 <div className="flex flex-col items-center justify-center text-center text-white gap-3 pl-4 pr-4">
                     <div className="flex flex-row items-center justify-center w-full gap-2">
                         <div className="flex flex-col justify-center mt-10 w-90 text-center">
