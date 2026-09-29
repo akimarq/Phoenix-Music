@@ -14,13 +14,14 @@ export type AlbumData = {
     datePublished: string;
     description: string;
     cover: string;
+    preview: string;
     tracks: TrackData[];
 };
 
 export const albumTrackLogos: Record<string, string> = {
     "master-collection": "QuindiLogo.svg",
     "10th-anniversary": "10thAnnLogo_White.svg",
-    "all-there-ever-was": ""
+    "all-there-ever-was": "AllThereEverWas_svg.svg"
 };
 
 export const albums: AlbumData[] = [
@@ -31,6 +32,7 @@ export const albums: AlbumData[] = [
         datePublished: "2025",
         description: "Description Placeholder",
         cover: "quindi_master_collection_cover.png",
+        preview: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2040495208%3Fsecret_token%3Ds-SwY3n02EVoQ&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
         tracks: [
             {
                 group: "Arc 1: 2016",
@@ -377,6 +379,7 @@ export const albums: AlbumData[] = [
         datePublished: "2026",
         description: "Description Placeholder",
         cover: "10thAnn_logo.png",
+        preview: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2271770459%3Fsecret_token%3Ds-Usnw4jGs39w&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
         tracks: [
             {
                 group: "",
@@ -387,7 +390,7 @@ export const albums: AlbumData[] = [
                 I came across the original Sibelius file for this track while thinking about putting together a different collection in late 2024. I decided to try and finish it for completion’s sake more than anything, and this is what I came up with.
 
                 Given the track’s history, it felt fitting to include it as the opening track of the 10th Anniversary EP, mainly as a tiny piece of history. Although the OPs and EDs are now basically themes for Quindecim as a whole, I still think this work has a small place as a separate piece of work about the guild.`,
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2271770474%3Fsecret_token%3Ds-Ph58Ovnq1vX&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "quindi",
             },
             {
@@ -397,7 +400,7 @@ export const albums: AlbumData[] = [
                 description: `The 10th anniversary version of All or Nothing started with a really simple premise: if Clyde was a boss fight, and if the original All or Nothing was the soundtrack to phase one, what should phase two sound like?
 
 I needed this track to be even more high-octane and hype than the original, and many of the changes in this version reflect that goal. This version of All or Nothing really tries to not let up with the energy all the way through until about 01:48 - which, yes, I intended to be a bit of a “main character fighting the boss has their moment reflecting” moment. I basically wanted this track to have an entire anime boss fight arc embedded in less than 3 minutes, power scaling and heroic comeback included. Nothing felt like it fit Clyde more than something like an epic boss fight.`,
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2271770465%3Fsecret_token%3Ds-uS4XIPAf95N&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "clyde",
             },
             {
@@ -407,7 +410,7 @@ I needed this track to be even more high-octane and hype than the original, and 
                 description: `Raining Fury as a general theme has had so many versions over the ten years: there are three main Raining Fury tracks and one piano version included in the All There Ever Was album, not to mention some once-off versions from way back in the day. All of these tracks, however, share one defining feature: they are all fast-paced, upbeat and thrash around.
 
 For the 10th anniversary version of Raining Fury, I wanted to take things in a very different direction. I deliberately chose to wind down the intensity of the original theme, and instead imagine what Raining Fury would sound like if it were ‘older’ and more folk-esque - in a sense, to reflect a very different version of this theme after the passage of time. In this spirit, this 10th anniversary version is a medley of Raining Fury I, II and III and presents a more gentle, melodic take on Raining Fury.`,
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2271770453%3Fsecret_token%3Ds-NbVY3sHKxya&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "chell",
             },
             {
@@ -419,7 +422,7 @@ For the 10th anniversary version of Raining Fury, I wanted to take things in a v
 I wanted to amplify several elements of the original when I made this version. In particular, I wanted to really lean into the ‘bravado’ of Brian and his OCs, especially when it came to dragons and Kamen Rider. Brian’s love for these topics in particular is unashamedly loud and proud, and I needed to depict that with this version of his theme. The brass in this track was integral to making that larger-than-life sound happen.
 
 Essentially, if I could make a track that fit with Brian comedically screaming about dragons I knew I had succeeded.`,
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2271770459%3Fsecret_token%3Ds-Usnw4jGs39w&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "brian",
             },
             {
@@ -429,7 +432,7 @@ Essentially, if I could make a track that fit with Brian comedically screaming a
                 description: `This 10th anniversary version of After Dark is one of the more radical reinterpretations of the entire collection, with a complete genre shift from laid-back jazz to fast bossa nova. This genre shift was a key factor in me deciding to go all-in on creating 10th anniversary versions of the themes, rather than just doing the odd one-off version.
 
 How this new version came about: I was listening to the original After Dark and found myself inattentively tapping out a faster rhythm for it afterwards. Importantly, this little snippet would just not leave my head, which told me that I needed to actually do something with it. This rhythm eventually became the main building block of this version, which you hear in the guitar and piano. When I experimented with putting together a full band version I was a bit surprised at how well it worked, and the rest came together relatively easily after that. The new breakdown at 2:47 is one of my favourite changes to this theme.`,
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2271770462%3Fsecret_token%3Ds-wimZdPRy1qp&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "kai",
             },
             {
@@ -439,7 +442,7 @@ How this new version came about: I was listening to the original After Dark and 
                 description: `This track was the first of this collection that I worked on. At first I had thought about just adding strings underneath the original Light from Shadow; I had actually done a version of this many years back, and so would have essentially just re-rendered that. But I started working on this idea around the same time that I experimented with the change to After Dark described above, which led to the idea of doing full re-interpretations/re-imaginations of Quindi themes to form anniversary versions. Once I decided to do that for After Dark, I knew I had to commit to changing this one as well.
 
 As I describe in The Master Collection, the original Light from Shadow is somewhat gloomy and sombre. So much time has passed since this original version, and I wanted this version to reflect something new. If I had to describe what this 10th anniversary version ended up on, it would be a sense of contentedness and peace, and some soft happiness. The piece more or less plays out the same way as the original, albeit with stylstic changes to make it lighter and more gentle, until the new material at 02:35. For me, this moment is where the piece really takes on a new life. Every time I listen to this moment I imagine something like stepping out of the woods into a clearing, or a bit of sun breaking through the clouds.`,
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2271770471%3Fsecret_token%3Ds-R98dEedpGI1&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "shiro",
             },
             {
@@ -451,7 +454,7 @@ As I describe in The Master Collection, the original Light from Shadow is somewh
 There’s a part of me that always thinks it would be so much fun to actually play on this track as a musician/performer. I was never a very good bassist back in the day but playing bass on funk tracks was always something that I got super into, and I think this piece would be the same.
 
 The word “fun” appears a lot in my thoughts and descriptions of this theme, which is no coincidence or mistake. I always wanted Aries’ theme to be fun because she herself is such a fun and delightful person to be around. I hope this new version gets closer to that goal.`,
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2271770456%3Fsecret_token%3Ds-cziSdI1H6mx&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "aries",
             },
             {
@@ -461,7 +464,7 @@ The word “fun” appears a lot in my thoughts and descriptions of this theme, 
                 description: `When I wrote the original Dominus Noctis for Xelia, I just knew that I had to come back and add to this track further down the line. It was too good of an idea to pass up working on further, and this collection gave me the perfect excuse to expand on it. Similar to Aries’ Flawless Victory, this was a track that I was already pretty happy with but saw room to do more with the gothic/dark academia vibes that inspired the original.
 
 There are many obvious changes here, such as the solo nylon guitar and slow introduction, the hits with the orchestra and choir at full blast in the middle, and the heavy metal breakdown near the end. Unlike some of the other 10th anniversary version tracks, though, I didn’t really aim to present a different interpretation of the original theme with this version of Dominus Noctis. Rather, I wanted to do something that added more flair and elegance to the original, which I hope comes across in this 10th anniversary version.`,
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2271770477%3Fsecret_token%3Ds-Dco9vi2x3go&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "xelia",
             },
             {
@@ -473,7 +476,7 @@ There are many obvious changes here, such as the solo nylon guitar and slow intr
 My favourite part of the original was the guitar solo at the end. This solo returns in this version, and once again is my favourite part. I’ve always wanted this part of the theme to really sing, and soar above everything else; I think this version of the solo gets a bit closer to that.
 
 A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere along the way from GP6 to GP8 (which I use now), the rendering engine changed and now the audio in the original GP6 file for Komorebi renders completely differently. As a result, I can’t render the original track with its original sounds anymore. Another minor reason for me to do a 10th anniversary version of this track was to have an updated version of the score that would render properly.`,
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2271770468%3Fsecret_token%3Ds-wyj5enQwSDE&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "sol",
             },
         ]
@@ -485,13 +488,14 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
         datePublished: "2025",
         description: "Description Placeholder",
         cover: "AllThereEverWas.png",
+        preview: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076818%3Fsecret_token%3Ds-SlIRG6ieScf&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
         tracks: [
             {
                 group: "",
                 title: "Overture",
                 year: "2021",
                 description: "There’s not a whole lot to be said about this first track other than that I hope it serves as a nice introduction to the album. Overtures in classical music traditionally served as precursors to larger bodies of work, but increasingly also referred to standalone pieces that could be performed as general introductions to concerts. While Overture in this album is also meant to be a sort of thematic introduction to the album - the second half of this track is thematically the same as the album’s namesake - it is hardly the big introduction that classical or concert overtures tend to be. If anything it’s quite the opposite, but I think for that reason it serves as a fine enough introduction to the rest of this album.",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076794%3Fsecret_token%3Ds-bdzpMFSuDb9&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             },
             {
@@ -499,7 +503,7 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "Lacrimae",
                 year: "2012",
                 description: "I was and continue to be a bit embarrassed about including this track in this album. Lacrimae was the first work for piano that I ever wrote, and the second piece I ever composed (the first piece was worse but may end up on this site eventually). I wrote Lacrimae when I was 15 (!!) for my high school music class, which is incredibly cringe. \n\nThe word “lacrimae” means “tears” in Latin. I think I named it that because of what I was experiencing at the time - which was a bit of an up-and-down relationship with a lot of things in general. Big news for a 15-year-old, I know. \n\nThe piece heavily draws on Yiruma’s songs because I was big into Yiruma at that age. I’ve presented the original version with some very minor tweaking here, partially as a marker to show how far I’ve come as a writer - or maybe how little progress I’ve made, hahaha.",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076803%3Fsecret_token%3Ds-iOB7edc5Owv&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             },
             {
@@ -507,7 +511,7 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "Raining Fury",
                 year: "2016 (original), 2020", 
                 description: "This is a solo piano arrangement of Raining Fury I. This is one of the many iterations and versions of Raining Fury that have existed over the years, but this version remains relatively faithful to the original. Having never been a very accomplished pianist myself, I’m not actually sure how playable this track is - I tried to make it at least appear and sound plausible for human hands, but I can never be fully sure. I don’t expect every work that I make to be translatable to human performers one-to-one, but the point of this album was to write for one instrument…",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076821%3Fsecret_token%3Ds-oZ9g33ICI7g&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=tru",
                 dedication: "",
             },
             {
@@ -515,7 +519,7 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "Light from the Sixth Station",
                 year: "2021",
                 description: "The original Light from Shadow was a theme written for solo piano, and drew surprisingly strong emotional reactions from some people when I first shared it around. For that reason alone, I simply couldn’t look past including a version of this theme when putting this collection together. However, as much as I could have included the original as is, at the time I thought that it would be more meaningful to present the piece in a new light by drawing upon one of my biggest inspirations in my early days of music writing - the music of Joe Hisaishi and the Ghibli film soundtracks. Light from Shadows and many of these other current works wouldn’t exist without Joe Hisaishi’s phenomenal work. \n\nThis piece is a combination of Light from Shadow and The Sixth Station from the movie Spirited Away. Spirited Away, as I’ve described elsewhere, is one of my favourite films of all time and The Sixth Station in particular is perhaps my favourite track in the OST. This piece and its name is a combination of this phenomenal piece and Light from Shadow.",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076809%3Fsecret_token%3Ds-snWFvS67yXV&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             },
             {
@@ -523,7 +527,7 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "Under the Same Moon",
                 year: "2018",
                 description: "The name Under the Same Moon gives away a lot of what this piece is about. I have always interpreted this piece and its title as having two layers. The first layer is about a specific kind of loneliness; it is about feeling just a bit too far away from someone, and wanting to be closer to them. I think this is a feeling that many people have experience with, and if not can still instinctively relate to or understand.\n\nThe second layer, though, is (perhaps strangely) about comfort, and where I think this piece truly derives its name from. For me, there’s a small sense of comfort in knowing that even if someone is physically too far away from you, they are still ‘under the same moon’ that you are. In a way, it’s a sign that they’re not too far away. I’ve never been fully sure whether this piece really captures these two layers at the same time, but this piece is an earnest attempt at that all the same.",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076812%3Fsecret_token%3Ds-Ia9YsRkj6Ey&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             },
             {
@@ -531,7 +535,7 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "Ghost Heart",
                 year: "2017",
                 description: "If you are reading these notes in linear order, it may be obvious by now that a lot of my non-theme music is personally inspired or driven. Ghost Heart is maybe one of the best examples of this. \n\nI’m at a very different point in my life now than when Ghost Heart was written, so I’m not really afraid to reflect on how this piece came to be. Ghost Heart is fundamentally a piece about heartbreak. It was written after an important friend in Quindi left, and I lost all contact with them. They left nothing behind so I actually lost just about all trace of them too, almost as if they never existed to begin with. It took me a long time - longer than I expected - to process their departure. I can’t really articulate why, and I think it’d be foolish at best for me to try. What I do feel comfortable saying though is that Ghost Heart was a way for me to work through a lot of complex feelings. \n\nI also wrote an orchestral version of Ghost Heart, which is much longer. Perhaps I’ll expand on some of these comments more when I eventually re-share that one.",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076797%3Fsecret_token%3Ds-7l7gCqkUUug&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             },
             {
@@ -539,7 +543,7 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "Dreams of the Stars Above",
                 year: "2021",
                 description: "Dreams of the Stars Above is Daisy’s theme, which is also included in The Master Collection. This track is almost a one-for-one replica of the original theme, just arranged for two hands on a single piano. Unlike some of the other arrangements on this album, this theme was already half-piano so it was fairly easy to translate into a solo piano format. The main challenge for this arrangement was trying to capture the interlocking string lines in the first half of the original piece, but I think I kept enough to retain the essence of the original.",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076839%3Fsecret_token%3Ds-JeQOmH9o9zp&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             },
             {
@@ -547,7 +551,7 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "Arashi",
                 year: "2021",
                 description: "Arashi, which means “storm” in Japanese, is a bit of an outlier on this album. Although there are a number of pieces that are original works not directly written for/about Quindis, most of them are still connected to either Quindi or me in some way. Arashi, however, is truly a standalone piece that has zero connection with either Quindi or me. It was the result of basically experimenting with a specific musical scale and seeing if I could come up with something interesting.\n\nThis piece is sort of a counterpart to another piece I wrote in 2018 called Nagare [Waves], which I also wrote for the hell of it. Both Arashi and Nagare feature Japanese-origin names, but I’m not sure I could really say they were inspired by Japanese music in any way per se. They were just really fun experiments.",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076800%3Fsecret_token%3Ds-BAOgWQcwzVG&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             },
             {
@@ -555,7 +559,7 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "Rainbow Connection",
                 year: "2021 (original), 2025",
                 description: "I didn’t grow up with The Muppets, so I didn’t discover this song until much later in life. I’m not even sure how I discovered it - I have a feeling I found a cover version first before I even knew it was from The Muppets - but I remember loving the track instantly. I particularly love the line “Who said that every wish / Would be heard and answered / When wished on the morning star? - I just think it’s a pretty beautiful line.\n\nThe original 2021 version of this album had a very different version of this track. I hated what I did with it - it really trudged along in an ugly way and I skipped the entire second verse for some reason, which includes the very lines described above! So when I came around to making the Remastered edition I completely rearranged this piece from scratch. I’m much happier with this version.",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076827%3Fsecret_token%3Ds-bYvYLxcyxp2&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             },
             {
@@ -563,7 +567,7 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "Komorebi",
                 year: "2018 (original)",
                 description: "Komorebi is Sol’s theme. This version is a fairly faithful arrangement of the original track and unfolds in much the same way. I was a bit surprised at how well it translated to solo piano, especially because the track was originally built using layers and layers of different sounds and instruments. I still really like this theme, though, and always enjoy coming back to it in many forms - there’s not much else I can add here.",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076824%3Fsecret_token%3Ds-soXKi66YGPl&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             },
             {
@@ -571,7 +575,7 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "A Sunset We Shared",
                 year: "2017",
                 description: "In some ways, A Sunset We Shared is a spiritual prequel to Ghost Heart. This is another track where the title is fairly literal. The inspiration for this track was a moment where I was sitting with an old friend (the same one in Ghost Heart) and we just… talked for hours and hours and hours, about anything and everything. We were in slightly different timezones, but we would have started in the evening (i.e. when the sun was setting for them) and finished well into the night.\n\nNow, of course, I look on those memories quite differently. In one sense, the track is literally about just sitting together and sharing a sunset. Above the literal sense, I think the track is about bittersweet reminiscence: reminiscing on things that were, and also things that will never eventuate.",
-                cover: "cover.jpg",
+                cover: "ttps://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076836%3Fsecret_token%3Ds-15m68zKDFzJ&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             },
             {
@@ -579,7 +583,15 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "Among the Stars",
                 year: "2016 (original) revised 2021", 
                 description: "Although I didn’t originally intend this, I think Among the Stars essentially sits as an epilogue or conclusion to Ghost Heart. Yes, it was another piece that was originally personally motivated, and yes the original was also a product of its time - two overarching concepts that I think pervade half of this album, maybe against my better judgement.\n\nWhat makes this specific track different from some of the others though is the fact that I decided to revise it. This piece has gone by a number of different names since it was originally written in 2016. It’s also undergone a number of revisions and edits as my feelings about this piece (and other things) have changed over time. I didn’t want all of my non-Quindi writing in 2016-2017 to sit in the same emotional black hole that spawned Ghost Heart, and this piece just felt right to revisit. So I deliberately rewrote this piece in 2021 to let it tell a new story from the original, with the most significant edit being the key change near the end of the track (4:00).\n\nThe name Among the Stars is a new name for the piece. As described above, Ghost Heart is about heartbreak. In contrast, Among the Stars is now about letting go; the story in the piece ends in closure, and releasing the heartbreak ‘among the stars’ where it belongs.",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076806%3Fsecret_token%3Ds-qezT0Z6IwIv&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+                dedication: "",
+            },
+            {
+                group: "",
+                title: "All There Ever Was",
+                year: "2020",
+                description: "I’m not really sure what to say here about this theme that I haven’t already said in The Master Collection. That being said, I find it a little interesting that I ended up writing a solo piano theme for myself, despite tending to write much more elaborate themes for just about everybody else. I think this goes back to the dilemma I described with Ascension where I really just don’t know how to write themes about myself. Maybe I will figure this out one day…",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076818%3Fsecret_token%3Ds-SlIRG6ieScf&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             },
             {
@@ -587,7 +599,7 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "Palm of a Tiny Hand (Clannad)",
                 year: "2020",
                 description: "I’m not embarrassed to admit that Clannad is one of the only shows that has ever made me cry - and not only did I cry but I bawled. Granted, I watched it while I was in a bit of a touchy state but Clannad humbled me real quick in a way that no show had ever done (and still hasn’t really, with one exception).\n\nThe flagship song and central musical theme of Clannad is Dango Daikazoku. Chiisana Te No Hira (小さなてのひら), which translates to Palm of a Tiny Hand, is a variant on Dango Daikazoku that appears in one specific part of Clannad. I won’t divulge any spoliers from the story - this is one series that you really do have to go into completely blind - but this track appears at such a pivotal moment that it left a really strong impression on me. This piece is an arrangement of that song for solo piano and cello, an instrument that I adore the sound of.",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076833%3Fsecret_token%3Ds-K3q0WvKag81&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             },
             {
@@ -595,7 +607,7 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "Celestial Destiny/Ascension (Genshin)",
                 year: "2021",
                 description: "I have been playing Genshin for 5 years and still play daily. One of the reasons I love this game is the OST, which to me is nothing short of incredible. I am constantly floored by what Hoyo-Mix create and can only dream of writing music as impressive as the Genshin OST. I think the main themes for Natlan, Nod-Krai and Snezhnaya are perfect examples of how magical the Genshin soundtrack is as a whole. Hoyoverse really can be a music company with a game on the side.\n\nCelestial Destiny is a specific arrangement of the Main Theme that plays on the loading screen. It featured once in the music event in Version 1.4, which was shortly after I started playing the game in early 2021. I’m not actually sure what led me to try and merge this track with Ascension, but I remember it being a fun project. Sometimes, these spur-of-the-moment ideas lead me down some delightful pathways.",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076830%3Fsecret_token%3Ds-BzEd3NezJVD&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             },
             {
@@ -603,7 +615,7 @@ A random aside: the original Komorebi was written in Guitar Pro 6. Somewhere alo
                 title: "Among the Stars (Expanded)",
                 year: "2025",
                 description: "This version of Among the Stars features a string quartet with the piano. The cello gets special love in this version - I wanted to create a tender duet moment between the cello and the piano in the mid-section when it comes in as a solo.\n\nFor the longest time I didn’t want to listen to the original version of this track (i.e. before it became Among the Stars) because I actually found it kind of unbearable to listen to. It was only really during the making of the original All There Ever Was album back in 2021 that I had the stomach to face this piece again in its entirety. It took a bit of time for me to become comfortable even working with this piece again, so it’s somewhat funny in hindsight that there are now two versions of this song.",
-                cover: "cover.jpg",
+                cover: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2400076815%3Fsecret_token%3Ds-PcjtRzh7jlN&color=%2358d3f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
                 dedication: "",
             }
         ]
