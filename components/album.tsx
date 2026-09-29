@@ -4,18 +4,7 @@ import { useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
-
-type SoundCloudWidget = {
-  play: () => void;
-  pause: () => void;
-  seekTo: (ms: number) => void;
-};
-
-declare global {
-  interface Window {
-    SC?: { Widget: (iframe: HTMLIFrameElement) => SoundCloudWidget };
-  }
-}
+import { SoundCloudWidget } from "./soundcloud";
 
 const START_MS = 160000;
 
