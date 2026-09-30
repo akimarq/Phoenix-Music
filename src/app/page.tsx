@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <div className="flex flex-col items-center justify-center h-auto gap-20">
         <h1 className="text-4xl mt-30">Welcome!</h1>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-15">
+        <div className="flex flex-col sm:flex-row items-center justify-center mb-20 gap-10 sm:gap-15 sm:mb-0">
           {albums.map((album) => (
               <Album 
               slug={album.slug}
