@@ -5,7 +5,6 @@ import { albumTrackLogos } from "@/app/albums";
 
 export const Track = ({
     slug,
-    group,
     title,
     year,
     dedication,
@@ -13,7 +12,6 @@ export const Track = ({
     isCompact,
 }: {
     slug: string;
-    group: string;
     title: string;
     year: string;
     dedication: string;
@@ -21,16 +19,14 @@ export const Track = ({
     isCompact: boolean;
 }) => {
     const logo = albumTrackLogos[slug];
-    const logoSize = isCompact ? "h-30 w-30" : "h-60 w-60";
+    const logoSize = isCompact ? "sm:h-30 sm:w-30 h-20 w-20" : "sm:h-60 sm:w-60 h-20 w-20";
 
     return (
         <div>
-            <p className="text-5xl font-semibold mb-10">{group}</p>
-
             <button
                 type="button"
                 onClick={onToggle}
-                className={`flex flex-col items-center justify-start bg-black rounded-lg text-white gap-5 hover:scale-105 shadow-[0_3px_10px_rgb(0,0,0,0.5)] hover:shadow-[0px_0px_30px_2px_rgba(255,_255,_255,_0.4)] duration-200 ease-in-out cursor-pointer border border-white/10 font-[inherit] p-0 ${isCompact ? "h-75 w-55" : "h-100 w-75"}`}
+                className={`flex max-w-full flex-col items-center justify-start gap-5 rounded-lg border border-white/10 bg-black p-0 font-[inherit] text-white shadow-[0_3px_10px_rgb(0,0,0,0.5)] duration-200 ease-in-out hover:scale-105 hover:shadow-[0px_0px_30px_2px_rgba(255,_255,_255,_0.4)] cursor-pointer ${isCompact ? "h-55 w-40 sm:h-75 sm:w-55" : "h-55 w-40 sm:h-100 sm:w-75"}`}
                 >
                 {logo && (
                     <div className={`relative flex flex-col items-center justify-center mt-10 text-white transition-[width,height] duration-200 ease-in-out ${logoSize}`}>
@@ -52,9 +48,9 @@ export const Track = ({
                     </div>
                 )}
 
-                <div className={`flex flex-col items-center text-center text-white ${isCompact ? "text-md" : "text-2xl"}`}>
-                    <p className="text-2xl font-normal text-center">{title}</p>
-                    <p className="text-lg text-center">{year}</p>
+                <div className={`flex flex-col items-center text-center text-white ${isCompact ? "text-md" : "sm:text-2xl text-md"}`}>
+                    <p className="text-md sm:text-2xl font-normal text-center">{title}</p>
+                    <p className="text-sm sm:text-lg text-center">{year}</p>
                 </div>
             </button>
         </div>

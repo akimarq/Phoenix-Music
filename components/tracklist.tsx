@@ -16,17 +16,17 @@ export function TrackList({
 }) {
     const [selected, setSelected] = useState<typeof album.tracks[0] | null>(null);
     return (
-        <div>
+        <div className="w-full min-w-0 max-w-full">
             {/* Tracklist area */}  
-            <div className="flex flex-row gap-10 w-screen justify-center">
+            <div className="flex w-full min-w-0 max-w-full flex-col justify-center gap-10 sm:flex-row sm:justify-center">
                 {/* track list */}
-                <div className="flex flex-col items-center justify-center gap-10">
+                <div className="flex w-full min-w-0 max-w-full flex-col items-center justify-center gap-10 sm:w-auto">
                 {sections.map((section) => (
-                    <div key={section.name}>
+                    <div key={section.name} className="w-full min-w-0 max-w-full">
                     {section.name !== "" && (
-                        <p className="text-5xl font-semibold mb-10 text-shadow-[0_3px_10px_rgb(0,0,0,1)]">{section.name}</p>
+                        <p className="mb-10 w-full px-4 text-center text-3xl font-semibold text-shadow-[0_3px_10px_rgb(0,0,0,1)] sm:text-5xl">{section.name}</p>
                     )}
-                        <div className="grid grid-cols-[auto_auto_auto] gap-5 mb-10">
+                        <div className="grid mx-auto mb-10 grid-cols-[auto_auto] w-fit max-w-full min-w-0 gap-5 sm:grid-cols-[auto_auto_auto]">
                             {section.tracks.map((track) => (
                             <Track
                                 onToggle={() =>
@@ -37,7 +37,6 @@ export function TrackList({
                                 }
                                 slug={album.slug}
                                 key={track.title}
-                                group=""
                                 title={track.title}
                                 year={track.year}
                                 dedication={track.dedication}
@@ -49,9 +48,12 @@ export function TrackList({
                     ))}
                 </div>
                 {/* track more  info */}
-                <div className={`sticky top-15 z-50 self-start overflow-hidden transition-[width] duration-200 ease-out ${selected ? "w-[45.75rem]" : "w-0"}`}>
-                    <div className="w-[45.75rem] p-4">
-                        {selected ? <TrackMore key={selected.title} track={selected} /> : null}
+                <div className={`z-50 w-full max-sm:fixed max-sm:inset-x-0 max-sm:bottom-0 max-sm:overflow-x-hidden max-sm:transition-transform max-sm:duration-300 max-sm:ease-out
+                        ${selected ? "max-sm:translate-y-0" : "max-sm:translate-y-full"}
+                        sm:sticky sm:top-15 sm:shrink-0 sm:self-start sm:overflow-hidden sm:transition-[width] sm:duration-200 sm:ease-out
+                        ${selected ? "sm:w-[45.75rem]" : "sm:w-0"}`}>
+                    <div className="w-full sm:w-[45.75rem] sm:p-4">
+                        {selected ? <TrackMore key={selected.title} track={selected} onClose={() => setSelected(null)} /> : null}
                     </div>
                 </div>
             </div>
@@ -61,3 +63,8 @@ export function TrackList({
     
     
     
+//     <div className={`fixed sm:sticky top-15 z-50 self-start overflow-hidden transition-[width] duration-200 ease-out ${selected ? "w-[45.75rem]" : "w-0"}`}>
+    //     <div className="w-[45.75rem] p-4">
+    //         {selected ? <TrackMore key={selected.title} track={selected} /> : null}
+    //     </div>
+//      </div>

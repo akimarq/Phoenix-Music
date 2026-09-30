@@ -82,7 +82,7 @@ export function AlbumDesc({ album }: { album: AlbumData }) {
     });
 
     return (
-        <div className="flex flex-col sm:flex-row items-center justify-center h:[90%] sm:h-screen mt-15">
+        <div className="mt-15 flex h:[90%] w-full min-w-0 max-w-full flex-col items-center overflow-x-clip sm:h-screen sm:flex-row sm:justify-center">
             {/* Album cover */}
             <div ref={frameRef} className="flex sm:flex-row flex-col items-center justify-center relative h-60 w-60 sm:h-150 sm:w-150">
                 <div ref={coverRef} className="absolute inset-0 overflow-hidden sm:rounded-l-lg sm:border border-white/10">
@@ -93,7 +93,7 @@ export function AlbumDesc({ album }: { album: AlbumData }) {
             {/* Album info */}
             <div
                 ref={descRef}
-                className="flex flex-col sm:h-150 sm:w-175 bg-black sm:rounded-r-lg p-5 sm:gap-5 sm:border border-white/10 overflow-y-auto overflow-x-hidden"
+                className="flex w-full min-w-0 max-w-full flex-col overflow-x-hidden overflow-y-auto bg-black p-5 sm:h-150 sm:w-175 sm:max-w-none sm:gap-5 sm:rounded-r-lg sm:border sm:border-white/10"
             >
                 <h1 className="text-xl sm:text-2xl font-semibold">Introduction</h1>
                 <p className="text-md sm:text-xl whitespace-pre-wrap">{album.description}</p>
