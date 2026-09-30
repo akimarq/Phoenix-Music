@@ -26,12 +26,16 @@ export function AlbumDesc({ album }: { album: AlbumData }) {
         const desc = descRef.current;
         if (!frame || !cover || !desc) return;
 
+
+        const mm = gsap.matchMedia();
+        mm.add("(min-width: 640px)", () => {
+
+            
         const start = () => {
             const rect = frame.getBoundingClientRect();
             return { top: rect.top + window.scrollY, left: rect.left, size: rect.width };
         };
-
-        gsap.set(cover, { position: "fixed", zIndex: 40 });
+            gsap.set(cover, { position: "fixed", zIndex: 40 });
 
         const timeline = gsap.timeline({
             scrollTrigger: {
@@ -79,7 +83,12 @@ export function AlbumDesc({ album }: { album: AlbumData }) {
                 onUpdate: apply,
             });
         });
+        });
+    
+        return () => mm.revert();
     });
+
+
 
     return (
         <div className="mt-15 flex h:[90%] w-full min-w-0 max-w-full flex-col items-center overflow-x-clip sm:h-screen sm:flex-row sm:justify-center">

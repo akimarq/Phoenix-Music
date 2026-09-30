@@ -21,7 +21,7 @@ export const Album = ({ slug, cover, preview }: { slug: string; cover: string; p
 
   return (
     <div
-      className="relative w-60 sm:w-80 h-60 sm:h-80 rounded-lg text-white hover:scale-105 transition-all duration-150 cursor-pointer hover:shadow-[0px_0px_30px_2px_rgba(255,_255,_255,_0.4)] border border-white/10"
+      className="relative sm:w-60 sm:h-60 w-45 h-45 rounded-lg text-white hover:scale-105 transition-all duration-150 cursor-pointer hover:shadow-[0px_0px_30px_2px_rgba(255,_255,_255,_0.4)] border border-white/10"
       onMouseEnter={() => {
         const widget = getWidget();
         widget?.play();

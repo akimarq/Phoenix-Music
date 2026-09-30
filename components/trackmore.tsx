@@ -30,13 +30,13 @@ export const TrackMore = ({ track, onClose }: { track: TrackData, onClose: () =>
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"/>
             </svg>
             </button>
-                <div className="flex flex-col items-center xs:h-150 justify-center text-center text-white gap-3 pl-4 pr-4">
+                <div className="flex flex-col items-center justify-center text-center text-white gap-3 pl-4 pr-4">
                     <div className="flex flex-col-reverse sm:flex-row items-center justify-center w-full gap-2">
                         <div className="flex flex-col justify-center sm:mt-10 mt-5 w-full sm:w-90 text-center">
                             <p className="sm:text-4xl font-light">{title}</p>
                             <p className="sm:text-2xl font-light">{year}</p>
                         </div>
-                        <div className="h-40 w-full overflow-hidden sm:h-70 sm:w-70 sm:mt-10">
+                        <div className="h-50 w-full overflow-hidden sm:h-70 sm:w-70 sm:mt-10">
                             <iframe
                                 className="h-[200%] w-[200%] origin-top-left scale-50 sm:h-full sm:w-full sm:scale-100"
                                 title={`${title} player`}
@@ -45,8 +45,8 @@ export const TrackMore = ({ track, onClose }: { track: TrackData, onClose: () =>
                             />
                         </div>
                     </div>
-                    <div className="overflow-y-auto overflow-x-hidden w-full h-90 sm:h-110 sm:w-full pl-2 pr-2 sm:mt-5">
-                        <p className="sm:text-lg font-medium text-justify whitespace-pre-wrap">{description}</p>
+                    <div className="overflow-y-auto overflow-x-hidden w-full h-100 sm:h-110 sm:w-full pl-2 pr-2 sm:mt-5">
+                        <p className="sm:text-lg text-justify whitespace-pre-wrap">{description}</p>
                     </div>
                 </div>
             </div>
