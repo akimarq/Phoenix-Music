@@ -25,7 +25,7 @@ export const TrackMore = ({ track, onClose }: { track: TrackData, onClose: () =>
         <div>
             <Script id="soundcloud-widget-api" src="https://w.soundcloud.com/player/api.js" onReady={connect} />
             <div className="flex flex-col items-center justify-start sm:h-200 sm:w-175 bg-black rounded-lg text-white gap-5 sticky top-20 z-50 border border-white/10 animate-panel-in shadow-[0_3px_10px_rgb(0,0,0,0.5)] sm:mt-25">
-            <button type="button" onClick={onClose} className="sm:hidden" aria-label="Close cursor-pointer">
+            <button type="button" onClick={onClose} className="sm:hidden mt-5" aria-label="Close cursor-pointer">
                 <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 8">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"/>
             </svg>
@@ -45,7 +45,7 @@ export const TrackMore = ({ track, onClose }: { track: TrackData, onClose: () =>
                             />
                         </div>
                     </div>
-                    <div className="overflow-y-auto overflow-x-hidden w-full h-100 sm:h-110 sm:w-full pl-2 pr-2 sm:mt-5">
+                    <div className="overflow-y-auto overflow-x-hidden w-full h-90 sm:h-110 sm:w-full pl-2 pr-2 sm:mt-5">
                         <p className="sm:text-lg text-justify whitespace-pre-wrap">{description}</p>
                     </div>
                 </div>

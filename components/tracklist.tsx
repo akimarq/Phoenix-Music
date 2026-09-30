@@ -24,7 +24,7 @@ export function TrackList({
                 {sections.map((section) => (
                     <div key={section.name} className="w-full min-w-0 max-w-full">
                     {section.name !== "" && (
-                        <p className="mb-10 w-full px-4 text-center text-3xl font-semibold text-shadow-[0_3px_10px_rgb(0,0,0,1)] sm:text-5xl">{section.name}</p>
+                        <p className="border-t pt-5 border-white/10 mb-10 w-full px-4 text-center text-3xl font-semibold text-shadow-[0_3px_10px_rgb(0,0,0,1)] sm:text-5xl">{section.name}</p>
                     )}
                         <div className="grid mx-auto mb-10 grid-cols-[auto_auto] w-fit max-w-full min-w-0 gap-5 sm:grid-cols-[auto_auto_auto]">
                             {section.tracks.map((track) => (
