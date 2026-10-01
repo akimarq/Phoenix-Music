@@ -91,7 +91,7 @@ export function AlbumDesc({ album }: { album: AlbumData }) {
 
 
     return (
-        <div className="mt-15 flex h:[90%] w-full min-w-0 max-w-full flex-col items-center overflow-x-clip sm:h-screen sm:flex-row sm:justify-center">
+        <div className="mt-15 sm:mt-0 flex w-full min-w-0 max-w-full flex-col items-center overflow-x-clip sm:h-screen sm:flex-row sm:justify-center">
             {/* Album cover */}
             <div ref={frameRef} className="flex sm:flex-row flex-col items-center justify-center relative h-60 w-60 sm:h-150 sm:w-150">
                 <div ref={coverRef} className="absolute inset-0 overflow-hidden sm:rounded-l-lg sm:border border-white/10">

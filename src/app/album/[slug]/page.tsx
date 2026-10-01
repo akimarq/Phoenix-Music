@@ -29,7 +29,7 @@ export default async function albumPage({
   }
   
     return (
-      <div className="flex h-auto w-full min-w-0 max-w-full flex-col items-center justify-center gap-30">
+      <div className="flex w-full min-w-0 max-w-full flex-col items-center justify-center gap-30">
         {/* Album info area */}
         <AlbumDesc album={album} />
 
