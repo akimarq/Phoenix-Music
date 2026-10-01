@@ -37,12 +37,13 @@ export const TrackMore = ({ track, onClose }: { track: TrackData, onClose: () =>
                             <p className="sm:text-2xl font-light">{year}</p>
                         </div>
                         <div className="h-50 w-full overflow-hidden sm:h-70 sm:w-70 sm:mt-10">
-                            <iframe
-                                className="h-[200%] w-[200%] origin-top-left scale-50 sm:h-full sm:w-full sm:scale-100"
-                                title={`${title} player`}
-                                allow="autoplay; encrypted-media"
-                                src={cover}
-                            />
+                        <iframe
+                            className="h-[200%] w-[200%] origin-top-left scale-50 sm:h-full sm:w-full sm:scale-100"
+                            title={`${title} player`}
+                            allow="autoplay; encrypted-media"
+                            src={cover}
+                            ref={iframeRef}
+                        />
                         </div>
                     </div>
                     <div className="overflow-y-auto overflow-x-hidden w-full h-90 sm:h-110 sm:w-full pl-2 pr-2 sm:mt-5">
